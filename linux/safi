@@ -1,0 +1,40 @@
+OS module in Python provides functions for interacting with the operating system. OS comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. os.path module is sub-module of OS module in Python used for common pathname manipulation.
+
+os.path.join() method in Python join one or more path components intelligently. This method concatenates various path components with exactly one directory separator (‘/’) following each non-empty part except the last path component. If the last path component to be joined is empty then a directory seperator (‘/’) is put at the end.
+If a path component represents an absolute path, then all previous components joined are discarded and joining continues from the absolute path component.
+
+Syntax: os.path.join(path, *paths)
+
+
+
+ 
+
+Parameter:
+path: A path-like object representing a file system path.
+*path: A path-like object representing a file system path. It represents the path components to be joined.
+A path-like object is either a string or bytes object representing a path.
+
+Note: The special syntax *args (here *paths) in function definitions in python is used to pass a variable number of arguments to a function.
+
+Return Type: This method returns a string which represents the concatenated path components.
+
+Code: Use of os.path.join() method to join various path components
+filter_none
+brightness_4
+# Python program to explain os.path.join() method  
+    
+# importing os module  
+import os 
+  
+# Path 
+path = "/home"
+  
+# Join various path components  
+print(os.path.join(path, "User/Desktop", "file.txt")) 
+  
+  
+# Path 
+path = "User/Documents"
+  
+# Join various path components  
+print(os.path.join(path, "/home", "file.txt")) 

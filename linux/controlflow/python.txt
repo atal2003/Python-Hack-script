@@ -1,0 +1,2466 @@
+﻿  Python (programming language) - Wikipedia 
+document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRequestId":"Xj@RjQpAICMAAHqUiMsAAABF","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"PythonE
+(programming 
+language)","wgCurRevisionId":939861405,"wgRevisionId":939861405,"wgArticleId":23862,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles‸
+with short description","Use dmy dates from August 2015","All articles with 
+unsourced statements","Articles with unsourced statements from December 2019",
+ "Articles containing potentially dated statements from November 2019","All 
+articles containing potentially dated statements","Articles containing 
+potentially dated statements from December 2018","Articles with Curlie 
+links","Wikipedia articles with BNF identifiers","Wikipedia articles with GND 
+identifiers","Wikipedia articles with LCCN identifiers","Wikipedia articles with 
+SUDOC identifiers","Good articles","Articles with example Python 
+code","Programming languages","Class-based programming languages","Computational 
+notebook","Computer science in the Netherlands","Cross-platform free 
+software","Dutch inventions","Dynamically typed programming 
+languages","Educational programming languages","High-level programming 
+languages","Information technology in the Netherlands","Multi-paradigm 
+programming languages","Object-oriented programming languages","Programming 
+languages created in 1991","Python (programming language)","Scripting 
+languages","Text-oriented programming languages", "Cross-platform 
+software"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q28865","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":
+ "ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.startup","skins.vector.js","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging",
+ "ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]; 
+(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+ });});   
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.mw-collapsible-toggle-default:before{content:'['}.mw-collapsible-toggle-default:after{content:']'}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer}e
+caption .mw-collapsible-toggle,.mw-content-ltr caption 
+.mw-collapsible-toggle,.mw-content-rtl caption 
+.mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption 
+.mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption 
+.mw-collapsible-toggle{float:none}
+ .mw-editfont-monospace{font-family:monospace,monospace}.mw-editfont-sans-serif{font-family:sans-serif}.mw-editfont-serif{font-family:serif}n
+.mw-editfont-monospace,.mw-editfont-sans-serif,.mw-editfont-serif{font-size:13px;p
+}.mw-editfont-monospace.oo-ui-textInputWidget,.mw-editfont-sans-serif.oo-ui-textInputWidget,.mw-editfont-serif.oo-ui-textInputWidget{font-size:inherit}.mw-editfont-monospace\
+> .oo-ui-inputWidget-input,.mw-editfont-sans-serif > 
+.oo-ui-inputWidget-input,.mw-editfont-serif > 
+.oo-ui-inputWidget-input{font-size:13px}
+ .mw-ui-button{background-color:#f8f9fa;color:#222222;display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;min-width:4em;max-width:28.75em;margin:0;padding:0.57142857ems
+0.9375em;border:1px solid 
+#a2a9b1;border-radius:2px;cursor:pointer;vertical-align:middle;font-family:inherit;font-size:1em;font-weight:bold;line-height:1;text-align:center;-webkit-appearance:none}.mw-ui-button:visited{color:#222222}.mw-ui-button:hover{background-color:#ffffff;color:#444444;border-color:#a2a9b1}.mw-ui-button:focus{background-color:#ffffff;color:#222222;border-color:#3366cc;box-shadow:insetf
+0 0 0 1px #3366cc,inset 0 0 0 2px 
+#ffffff;outline-width:0}.mw-ui-button:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button:active,.mw-ui-button.is-on{background-color:#c8ccd1;color:#000000;border-color:#72777d;box-shadow:none}.mw-ui-button:disabled{background-color:#c8ccd1;color:#ffffff;border-color:#c8ccd1;cursor:default}.mw-ui-button:disabled:hover,.mw-ui-button:disabled:active{background-color:#c8ccd1;color:#ffffff;box-shadow:none;border-color:#c8ccd1}.mw-ui-button:not(:disabled){-webkit-transition:background-colork
+100ms,color 100ms,border-color 100ms,box-shadow 
+100ms;-moz-transition:background-color 100ms,color 100ms,border-color 
+100ms,box-shadow 100ms;transition:background-color 100ms,color 
+100ms,border-color 100ms,box-shadow 
+100ms}.mw-ui-button.mw-ui-quiet,.mw-ui-button.mw-ui-quiet.mw-ui-progressive,.mw-ui-button.mw-ui-quiet.mw-ui-destructive{background-color:transparent;color:#222222;border-color:transparent}.mw-ui-button.mw-ui-quiet:hover,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover{background-color:transparent;color:#444444;border-color:transparent;box-shadow:none}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:active,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:active{background-color:transparent;color:#000000;border-color:transparent}.mw-ui-button.mw-ui-quiet:focus,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:focus,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:focus{background-color:transparent;color:#222222;border-color:transparent;box-shadow:none}.mw-ui-button.mw-ui-quiet:disabled,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled,.mw-ui-button.mw-ui-quiet:disabled:hover,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-quiet:disabled:active,.mw-ui-button.mw-ui-quiet.mw-ui-progressive:disabled:active,.mw-ui-button.mw-ui-quiet.mw-ui-destructive:disabled:active{background-color:transparent;color:#72777d;border-color:transparent}.mw-ui-button.mw-ui-progressive{background-color:#3366cc;color:#fff;border:1pxu
+solid 
+#3366cc}.mw-ui-button.mw-ui-progressive:hover{background-color:#447ff5;border-color:#447ff5}.mw-ui-button.mw-ui-progressive:focus{box-shadow:insetp
+0 0 0 1px #3366cc,inset 0 0 0 2px 
+#ffffff}.mw-ui-button.mw-ui-progressive:active,.mw-ui-button.mw-ui-progressive.is-on{background-color:#2a4b8d;border-color:#2a4b8d;box-shadow:none}.mw-ui-button.mw-ui-progressive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-progressive:disabled:active{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-progressive.mw-ui-quiet{color:#3366cc}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover{background-color:transparent;color:#447ff5}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:active{color:#2a4b8d}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus{background-color:transparent;color:#3366cc}.mw-ui-button.mw-ui-destructive{background-color:#dd3333;color:#fff;border:1px:
+solid 
+#dd3333}.mw-ui-button.mw-ui-destructive:hover{background-color:#ff4242;border-color:#ff4242}.mw-ui-button.mw-ui-destructive:focus{box-shadow:inset#
+0 0 0 1px #dd3333,inset 0 0 0 2px 
+#ffffff}.mw-ui-button.mw-ui-destructive:active,.mw-ui-button.mw-ui-destructive.is-on{background-color:#b32424;border-color:#b32424;box-shadow:none}.mw-ui-button.mw-ui-destructive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-destructive:disabled:active{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-destructive.mw-ui-quiet{color:#dd3333}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover{background-color:transparent;color:#ff4242}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:active{color:#b32424}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus{background-color:transparent;color:#dd3333}.mw-ui-button.mw-ui-big{font-size:1.3em}.mw-ui-button.mw-ui-block{display:block;width:100%;margin-left:auto;margin-right:auto}input.mw-ui-button::-moz-focus-inner,button.mw-ui-button::-moz-focus-inner{margin-top:-1px;margin-bottom:-1px}a.mw-ui-button{text-decoration:none}a.mw-ui-button:hover,a.mw-ui-button:focus{text-decoration:none}.mw-ui-button-group > 
+*{min-width:48px;border-radius:0;float:left}.mw-ui-button-group > 
+*:first-child{border-top-left-radius:2px;border-bottom-left-radius:2px}.mw-ui-button-group;
+> *:not(:first-child){border-left:0}.mw-ui-button-group > 
+*:last-child{border-top-right-radius:2px;border-bottom-right-radius:2px}.mw-ui-button-groupd
+.is-on .button{cursor:default}
+ .mw-ui-icon{position:relative;line-height:1.5em;min-height:1.5em;min-width:1.5em}span.mw-ui-icon{display:inline-block}.mw-ui-icon.mw-ui-icon-element{text-indent:-999px;overflow:hidden;width:3.5em;min-width:3.5em;max-width:3.5em}.mw-ui-icon.mw-ui-icon-element:before{left:0;right:0;position:absolute;margin:0p
+1em}.mw-ui-icon.mw-ui-icon-element.mw-ui-icon-large{width:4.625em;min-width:4.625em;max-width:4.625em;line-height:4.625em;min-height:4.625em}.mw-ui-icon.mw-ui-icon-element.mw-ui-icon-large:before{min-height:4.625em}.mw-ui-icon.mw-ui-icon-before:before,.mw-ui-icon.mw-ui-icon-element:before{background-position:50%a
+50%;background-repeat:no-repeat;background-size:100% 
+auto;float:left;display:block;min-height:1.5em;content:''}.mw-ui-icon.mw-ui-icon-before:before{position:relative;width:1.5em;margin-right:1em}.mw-ui-icon.mw-ui-icon-small:before{background-size:66.67%u
+auto} .ve-init-mw-progressBarWidget{height:1em;overflow:hidden;margin:0 
+25%}.ve-init-mw-progressBarWidget-bar{height:1em;width:0} 
+.ve-init-mw-progressBarWidget{height:0.75em;border:1px solid 
+#36c;background:#fff;border-radius:2px;box-shadow:0 0.1em 0 0 
+rgba(0,0,0,0.15)}.ve-init-mw-progressBarWidget-bar{height:0.75em;background:#36c}
+ .scribunto-limitreport-logs{margin:0;white-space:pre-wrap}
+ .rt-tooltip{position:absolute;z-index:100;max-width:350px;background:#fff;color:#222;font-size:13px;line-height:1.5em;border:1pxh
+solid #c8ccd1;border-radius:3px;box-shadow:0 15px 45px -10px 
+rgba(0,0,0,0.3);overflow-wrap:break-word}.rt-tooltip.rt-tooltip-insideWindow{z-index:110}.rt-tooltipContent{padding:8px-
+11px}.rt-tooltip-above 
+.rt-tooltipContent{margin-bottom:-8px;padding-bottom:16px}.rt-tooltip-below 
+.rt-tooltipContent{margin-top:-10px;padding-top:18px}.rt-tooltipTail,.rt-tooltipTail:after{position:absolute;width:12px;height:12px}.rt-tooltipTail{background:#c8ccd1;background:-webkit-linear-gradient(bottomo
+left,#c8ccd1 50%,rgba(0,0,0,0) 50%);background:linear-gradient(to top 
+right,#c8ccd1 50%,rgba(0,0,0,0) 
+50%)}.rt-tooltipTail:after{content:"";background:#fff;bottom:1px;left:1px}.rt-tooltip-abovem
+.rt-tooltipTail{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:100%r
+100%;transform-origin:100% 100%;bottom:0;left:15px}.rt-tooltip-below 
+.rt-tooltipTail{-webkit-transform:rotate(135deg);transform:rotate(135deg);-webkit-transform-origin:0x
+0;transform-origin:0 
+0;top:0;left:27px}.rt-settingsLink{background-image:linear-gradient(transparent,transparent),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%0D%0A%20%20%20%20%3Cpath%20fill%3D%22%23555%22%20d%3D%22M20%2014.5v-2.9l-1.8-.3c-.1-.4-.3-.8-.6-1.4l1.1-1.5-2.1-2.1-1.5%201.1c-.5-.3-1-.5-1.4-.6L13.5%205h-2.9l-.3%201.8c-.5.1-.9.3-1.4.6L7.4%206.3%205.3%208.4l1%201.5c-.3.5-.4.9-.6%201.4l-1.7.2v2.9l1.8.3c.1.5.3.9.6%201.4l-1%201.5%202.1%202.1%201.5-1c.4.2.9.4%201.4.6l.3%201.8h3l.3-1.8c.5-.1.9-.3%201.4-.6l1.5%201.1%202.1-2.1-1.1-1.5c.3-.5.5-1%20.6-1.4l1.5-.3zM12%2016c-1.7%200-3-1.3-3-3s1.3-3%203-3%203%201.3%203%203-1.3%203-3%203z%22%2F%3E%0D%0A%3C%2Fsvg%3E);float:right;cursor:pointer;margin:-4pxi
+-4px 0 8px;height:24px;width:24px;border-radius:2px;background-position:center 
+center;background-repeat:no-repeat;background-size:24px 
+24px}.rt-settingsLink:hover{background-color:#eee}.rt-target{background-color:#def}.rt-enableSelect{font-weight:bold}.rt-settingsFormSeparator{margin:0.85714286em2
+0}.rt-numberInput.rt-numberInput{width:150px}.rt-tooltipsForCommentsField.rt-tooltipsForCommentsField.rt-tooltipsForCommentsField{margin-top:1.64285714em}.rt-disabledHelp{border-collapse:collapse}.rt-disabledHelp6
+td{padding:0}.rt-disabledNote.rt-disabledNote{vertical-align:bottom;padding-left:0.36em;font-weight:bold}@-webkit-keyframes3
+rt-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px).
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)3
+}}@-moz-keyframes 
+rt-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px)-
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)s
+}}@keyframes 
+rt-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px)a
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)t
+}}@-webkit-keyframes 
+rt-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px)r
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)r
+}}@-moz-keyframes 
+rt-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px)w
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0) 
+}}@keyframes 
+rt-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px)w
+}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)a
+}}@-webkit-keyframes 
+rt-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)1
+}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px)-
+}}@-moz-keyframes 
+rt-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)p
+}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px)o
+}}@keyframes 
+rt-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)e
+}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);transform:translate(0,20px))
+}}@-webkit-keyframes 
+rt-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)-
+}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px)e
+}}@-moz-keyframes 
+rt-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)(
+}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px)x
+}}@keyframes 
+rt-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);transform:translate(0,0)l
+}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);transform:translate(0,-20px),
+}}.rt-fade-in-up{-webkit-animation:rt-fade-in-up 0.2s ease 
+forwards;-moz-animation:rt-fade-in-up 0.2s ease forwards;animation:rt-fade-in-up 
+0.2s ease forwards }.rt-fade-in-down{-webkit-animation:rt-fade-in-down 0.2s ease 
+forwards;-moz-animation:rt-fade-in-down 0.2s ease 
+forwards;animation:rt-fade-in-down 0.2s ease forwards 
+}.rt-fade-out-down{-webkit-animation:rt-fade-out-down 0.2s ease 
+forwards;-moz-animation:rt-fade-out-down 0.2s ease 
+forwards;animation:rt-fade-out-down 0.2s ease forwards 
+}.rt-fade-out-up{-webkit-animation:rt-fade-out-up 0.2s ease 
+forwards;-moz-animation:rt-fade-out-up 0.2s ease 
+forwards;animation:rt-fade-out-up 0.2s ease forwards } @media screen {
+ .tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+ @media print { .toc.tochidden,.toctoggle{display:none}} @-webkit-keyframes 
+centralAuthPPersonalAnimation{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframest
+centralAuthPPersonalAnimation{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes-
+centralAuthPPersonalAnimation{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframesn
+centralAuthPPersonalAnimation{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.centralAuthPPersonalAnimation{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:centralAuthPPersonalAnimation;-moz-animation-name:centralAuthPPersonalAnimation;-o-animation-name:centralAuthPPersonalAnimation;animation-name:centralAuthPPersonalAnimation}
+ .uls-menu{border-radius:2px; 
+font-size:medium}.uls-search,.uls-language-settings-close-block{border-top-right-radius:2px;border-top-left-radius:2px}.uls-language-list{border-bottom-right-radius:2px;border-bottom-left-radius:2px}.uls-menu.callout:before,.uls-menu.callout:after{border-top:10pxn
+solid transparent;border-bottom:10px solid transparent;display:inline-block; 
+top:17px;position:absolute;content:''}.uls-menu.callout.selector-right:before{ 
+border-left:10px solid #c8ccd1; 
+right:-11px}.uls-menu.callout.selector-right:after{ border-left:10px solid #fff; 
+right:-10px}.uls-menu.callout.selector-left:before{ border-right:10px solid 
+#c8ccd1; left:-11px}.uls-menu.callout.selector-left:after{ border-right:10px 
+solid #fff; left:-10px}.uls-ui-languages button{margin:5px 15px 5px 
+0;white-space:nowrap;overflow:hidden}.uls-search-wrapper-wrapper{position:relative;padding-left:40px;margin-top:5px;margin-bottom:5px}.uls-icon-back{background:transparenti
+url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.png?90e9b)t
+no-repeat scroll center 
+center;background-image:linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.svg?e226b);background-size:28px;background-position:centerl
+center;height:32px;width:40px;display:block;position:absolute;left:0;border-right:1pxp
+solid 
+#c8ccd1;opacity:0.8}.uls-icon-back:hover{opacity:1;cursor:pointer}.uls-menu 
+.uls-no-results-view .uls-no-found-more{background-color:#fff}.uls-menu 
+.uls-no-results-view h3{padding:0 
+28px;margin:0;color:#54595d;font-size:1em;font-weight:normal} .skin-vector 
+.uls-menu{border-color:#c8ccd1;-webkit-box-shadow:0 2px 2px 0 
+rgba(0,0,0,0.25);box-shadow:0 2px 2px 0 
+rgba(0,0,0,0.25);font-size:0.875em}.skin-vector 
+.uls-search{border-bottom-color:#c8ccd1}.skin-vector 
+.uls-search-label{opacity:0.51;-webkit-transition:opacity 
+250ms;-moz-transition:opacity 250ms;transition:opacity 250ms}.skin-vector 
+.uls-search-wrapper:hover .uls-search-label{opacity:0.87}.skin-vector 
+.uls-filtersuggestion{color:#72777d}.skin-vector 
+.uls-lcd-region-title{color:#54595d} .cite-accessibility-label{ 
+top:-99999px;clip:rect(1px,1px,1px,1px); position:absolute !important;padding:0 
+!important;border:0 !important;height:1px !important;width:1px !important; 
+overflow:hidden}:target 
+.mw-cite-targeted-backlink{font-weight:bold}.mw-cite-up-arrow-backlink{display:none}:targett
+.mw-cite-up-arrow-backlink{display:inline}:target 
+.mw-cite-up-arrow{display:none} @media 
+print{#centralNotice{display:none}}.cn-closeButton{display:inline-block;zoom:1;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAElBMVEUAAAAQEBDPz88AAABAQEDv7+9oe1vvAAAABnRSTlMA3rLe3rJS22KzAAAARElEQVQI12PAAUIUQCSTK5BwFgIxFU1AhKECUFAYKAAioXwwBeZChMGCEGGQIFQYJohgIhQgtCEMQ7ECYTHCOciOxA4AADgJTXIb9s8AAAAASUVORK5CYII=)i
+no-repeat;width:20px;height:20px;text-indent:20px;white-space:nowrap;overflow:hidden}
+ .mw-mmv-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background-color:#000}body.mw-mmv-lightbox-open{overflow-y:auto;#
+}body.mw-mmv-lightbox-open #mw-page-base,body.mw-mmv-lightbox-open 
+#mw-head-base,body.mw-mmv-lightbox-open #mw-navigation,body.mw-mmv-lightbox-open 
+#content,body.mw-mmv-lightbox-open #footer,body.mw-mmv-lightbox-open 
+#globalWrapper{ display:none}body.mw-mmv-lightbox-open > *{ 
+display:none}body.mw-mmv-lightbox-open > 
+.mw-mmv-overlay,body.mw-mmv-lightbox-open > 
+.mw-mmv-wrapper{display:block}.mw-mmv-filepage-buttons{margin-top:5px}.mw-mmv-filepage-buttonsn
+.mw-mmv-view-expanded,.mw-mmv-filepage-buttons 
+.mw-mmv-view-config{display:block;line-height:inherit}.mw-mmv-filepage-buttons 
+.mw-mmv-view-expanded.mw-ui-icon:before{background-image:url("data:image/svg+xml,%3CsvgC
+xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1024 768%22%3E %3Cpath 
+d=%22M851.2 71.6L690.7 232.1l-40.1-40.3-9.6 164.8 164.8-9.3-40.3-40.4L926 
+146.4l58.5 58.5L997.6 0 792.7 13.1%22/%3E %3Cpath d=%22M769.6 89.3H611.9l70.9 
+70.8 7.9 7.5m-47.1 234.6l-51.2 3 3-51.2 9.4-164.4 
+5.8-100.3H26.4V768h883.1V387l-100.9 5.8-165 9.4zM813.9 678H113.6l207.2-270.2 
+31.5-12.9L548 599.8l105.9-63.2 159.8 140.8.2.6zm95.6-291.9V228l-79.1 78.9 7.8 
+7.9%22/%3E %3C/svg%3E")}.mw-mmv-filepage-buttons 
+.mw-mmv-view-config.mw-ui-icon:before{background-image:url("data:image/svg+xml,%3Csvg-
+xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1024 768%22%3E %3Cpath 
+d=%22M897 454.6V313.4L810.4 
+299c-6.4-23.3-16-45.7-27.3-65.8l50.5-71.4-99.4-100.2-71.4 
+50.5c-20.9-11.2-42.5-20.9-65.8-27.3L582.6-1H441.4L427 85.6c-23.3 6.4-45.7 
+16-65.8 27.3l-71.4-50.5-100.3 99.5 50.5 71.4c-11.2 20.9-20.9 42.5-27.3 66.6L127 
+313.4v141.2l85.8 14.4c6.4 23.3 16 45.7 27.3 66.6L189.6 607l99.5 99.5 
+71.4-50.5c20.9 11.2 42.5 20.9 66.6 27.3l14.4 85.8h141.2l14.4-86.6c23.3-6.4 
+45.7-16 65.8-27.3l71.4 50.5 99.5-99.5-50.5-71.4c11.2-20.9 20.9-42.5 
+27.3-66.6l86.4-13.6zm-385 77c-81.8 0-147.6-66.6-147.6-147.6 0-81.8 66.6-147.6 
+147.6-147.6S659.6 302.2 659.6 384 593.8 531.6 512 531.6z%22/%3E 
+%3C/svg%3E");opacity:0.75}.mw-mmv-filepage-buttons 
+.mw-mmv-view-config.mw-ui-icon:before:hover{opacity:1}.mw-mmv-button{background-color:transparent;min-width:0;border:0;padding:0;overflow-x:hidden;text-indent:-9999em}
+ .ve-init-mw-tempWikitextEditorWidget{border:0;padding:0;color:inherit;line-height:1.5em;width:100%;-moz-tab-size:4;tab-size:4;w
+}.ve-init-mw-tempWikitextEditorWidget:focus{outline:0;padding:0}.ve-init-mw-tempWikitextEditorWidget::selection{background:rgba(109,169,247,0.5);-
+} #p-lang .body ul .uls-trigger,#p-lang .pBody ul 
+.uls-trigger{background-image:none;padding:0} 
+.mw-interlanguage-selector,.mw-interlanguage-selector:active{cursor:pointer;padding:4px4
+6px 4px 
+25px;font-size:13px;font-weight:normal;background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/compact-links-trigger.png?b0c8e);background-image:linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/compact-links-trigger.svg?ebb8e);background-size:18px;background-repeat:no-repeat;background-position:left{
+4px center;margin:4px 
+0;text-align:left}.mw-interlanguage-selector:active,.mw-interlanguage-selector.selector-open{background-color:#c8ccd1;color:#54595d}.interlanguage-uls-menu:before,.interlanguage-uls-menu:after{border-top:10px-
+solid transparent;border-bottom:10px solid transparent;display:inline-block; 
+top:17px;position:absolute;content:''}.interlanguage-uls-menu.selector-right:before{ 
+border-left:10px solid #c8ccd1; 
+right:-11px}.interlanguage-uls-menu.selector-right:after{ border-left:10px solid 
+#fff; right:-10px}.interlanguage-uls-menu.selector-left:before{ 
+border-right:10px solid #c8ccd1; 
+left:-11px}.interlanguage-uls-menu.selector-left:after{ border-right:10px solid 
+#fff; left:-10px} #uls-settings-block{background-color:#f8f9fa;border-top:1px 
+solid #c8ccd1;padding-left:10px;line-height:1.2em;border-radius:0 0 2px 
+2px}#uls-settings-block > button{background:left top transparent 
+no-repeat;background-size:20px 
+auto;color:#54595d;display:inline-block;margin:8px 15px;border:0;padding:0 0 0 
+26px;font-size:medium;cursor:pointer}#uls-settings-block > 
+button:hover{color:#222}#uls-settings-block > 
+button.display-settings-block{background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/display.png?d25f1);background-image:linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/display.svg?a28d5)}#uls-settings-blockh
+> 
+button.input-settings-block{background-image:url(/w/extensions/UniversalLanguageSelector/resources/images/input.png?aea9e);background-image:linear-gradient(transparent,transparent),url(/w/extensions/UniversalLanguageSelector/resources/images/input.svg?2ec7d)}
+ .ve-activated .ve-init-mw-desktopArticleTarget-editableContent 
+#toc,.ve-activated #siteNotice,.ve-activated .mw-indicators,.ve-activated 
+#t-print,.ve-activated #t-permalink,.ve-activated 
+#p-coll-print_export,.ve-activated #t-cite,.ve-deactivating 
+.ve-ui-surface,.ve-active 
+.ve-init-mw-desktopArticleTarget-editableContent,.ve-active 
+.ve-init-mw-tempWikitextEditorWidget{display:none} .ve-activating 
+.ve-ui-surface{height:0;padding:0 !important; overflow:hidden} .ve-loading 
+#content > :not(.ve-init-mw-desktopArticleTarget-loading-overlay), .ve-activated 
+.ve-init-mw-desktopArticleTarget-uneditableContent{pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;opacity:0.5}.ve-activatedw
+#firstHeading{ 
+-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;pointer-events:auto;cursor:text}.ve-activatedn
+#firstHeading a{ pointer-events:none}.ve-activated 
+#catlinks{cursor:pointer}.ve-activated #catlinks a{opacity:1}.ve-activated 
+#content{position:relative} 
+.ve-init-mw-desktopArticleTarget-loading-overlay{position:absolute;top:1.25em;left:0;right:0;z-index:1;margin-top:-0.5em}.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{transition:height-
+250ms ease;height:0; } .oo-ui-element-hidden{display:none !important; } 
+.mw-editsection{white-space:nowrap; 
+unicode-bidi:-moz-isolate;unicode-bidi:-webkit-isolate;unicode-bidi:isolate}.mw-editsection-divider{color:#54595d}c
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{border-bottom:1px solid 
+#c8ccd1;box-shadow:0 1px 1px 0 
+rgba(0,0,0,0.1)}.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-open{height:42px}n
+.ve-init-mw-desktopArticleTarget-toolbar,.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{font-size:0.875em;t
+margin:-1.14em -1.14em 1.14em -1.14em; }@media screen and 
+(min-width:982px){.ve-init-mw-desktopArticleTarget-toolbar,.ve-init-mw-desktopArticleTarget-toolbarPlaceholder{c
+margin:-1.43em -1.71em 1.43em -1.71em}}
+ .mw-ui-icon-popups-settings:before{background-image:url(/w/load.php?modules=ext.popups.images&image=popups-settings&format=rasterized&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvga
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Cg fill=%22%2354595d%22%3E %3Cpath d=%22M10.112 
+4.554a5.334 5.334 0 1 0 0 10.668 5.334 5.334 0 0 0 0-10.668zm0 7.823a2.49 2.49 0 
+1 1 0-4.978 2.49 2.49 0 0 1 0 4.978z%22/%3E %3Cpath d=%22M11.4 5.303L11.05 
+3h-2.1L8.6 5.303a4.9 4.9 0 0 1 2.8 0zm-2.8 9.394L8.95 17h2.1l.35-2.303a4.9 4.9 0 
+0 1-2.8 0zm5.712-7.028l1.4-1.876L14.2 4.309l-1.876 1.4a4.9 4.9 0 0 1 1.981 
+1.981l.007-.021zm-8.624 4.662L4.309 14.2 5.8 15.691l1.876-1.4a4.9 4.9 0 0 
+1-1.981-1.981l-.007.021zm9.009-.931L17 11.05v-2.1l-2.303-.35a4.9 4.9 0 0 1 0 
+2.8zM5.303 8.6L3 8.95v2.1l2.303.35a4.9 4.9 0 0 1 0-2.8zm7.028 5.712l1.876 1.4 
+1.484-1.512-1.4-1.876a4.9 4.9 0 0 1-1.981 1.981l.021.007zM7.669 5.688L5.8 4.309 
+4.309 5.8l1.4 1.876a4.9 4.9 0 0 1 1.96-1.988z%22/%3E %3C/g%3E 
+%3C/svg%3E")}.mw-ui-icon-popups-close:before{background-image:url(/w/load.php?modules=ext.popups.images&image=popups-close&format=rasterized&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg%
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E close %3C/title%3E %3Cpath d=%22M4.34 
+2.93l12.73 12.73-1.41 1.41L2.93 4.35z%22/%3E %3Cpath d=%22M17.07 4.34L4.34 
+17.07l-1.41-1.41L15.66 2.93z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-preview-generic:before{background-image:url(/w/load.php?modules=ext.popups.images&image=preview-generic&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg4
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E sad face %3C/title%3E %3Cpath d=%22M2 0a2 
+2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm4 4c1.336 0 2.007 1.617 
+1.06 2.56-.943.947-2.56.276-2.56-1.06A1.5 1.5 0 0 1 6 4zm8 0c1.336 0 2.007 1.617 
+1.06 2.56-.943.947-2.56.276-2.56-1.06A1.5 1.5 0 0 1 14 4zm-4 5c2.61 0 4.83.67 
+5.65 3H4.35C5.17 9.67 7.39 9 10 9z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-footer:before{background-image:url(/w/load.php?modules=ext.popups.images&image=footer&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg2
+xmlns=%22http://www.w3.org/2000/svg%22 
+xmlns:xlink=%22http://www.w3.org/1999/xlink%22 width=%22230%22 height=%22179%22 
+viewBox=%220 0 230 179%22%3E %3Cdefs%3E %3Crect id=%22a%22 width=%22201%22 
+height=%2213%22 rx=%222%22/%3E %3Crect id=%22b%22 width=%22201%22 
+height=%22169%22 y=%2210%22 rx=%222%22/%3E %3Crect id=%22c%22 width=%2230%22 
+height=%222%22 x=%22135%22 y=%22158%22 rx=%221%22/%3E %3C/defs%3E %3Cg 
+fill=%22none%22 fill-rule=%22evenodd%22%3E %3Cg transform=%22matrix%281 0 0 -1 0 
+13%29%22%3E %3Cuse fill=%22%23f8f9fa%22 xlink:href=%22%23a%22/%3E %3Crect 
+width=%22199%22 height=%2211%22 x=%221%22 y=%221%22 stroke=%22%23a2a9b1%22 
+stroke-width=%222%22 rx=%222%22/%3E %3C/g%3E %3Cuse fill=%22%23fff%22 
+xlink:href=%22%23b%22/%3E %3Crect width=%22199%22 height=%22167%22 x=%221%22 
+y=%2211%22 stroke=%22%23a2a9b1%22 stroke-width=%222%22 rx=%222%22/%3E %3Cg 
+opacity=%22.4%22 fill=%22%2372777d%22 transform=%22translate%2867 35%29%22%3E 
+%3Crect width=%2273%22 height=%222%22 y=%227%22 fill=%22%23c8ccd1%22 
+rx=%221%22/%3E %3Crect width=%2281%22 height=%222%22 y=%2231%22 rx=%221%22/%3E 
+%3Crect width=%2232%22 height=%222%22 y=%2285%22 rx=%221%22/%3E %3Crect 
+width=%2273%22 height=%222%22 x=%2235%22 y=%2285%22 rx=%221%22/%3E %3Crect 
+width=%2217%22 height=%222%22 y=%2245%22 rx=%221%22/%3E %3Crect width=%2217%22 
+height=%222%22 x=%2291%22 y=%2245%22 rx=%221%22/%3E %3Crect width=%2268%22 
+height=%222%22 x=%2220%22 y=%2245%22 rx=%221%22/%3E %3Crect width=%2217%22 
+height=%222%22 y=%2278%22 rx=%221%22/%3E %3Crect width=%2237%22 height=%222%22 
+x=%2272%22 y=%2278%22 rx=%221%22/%3E %3Crect width=%2249%22 height=%222%22 
+x=%2220%22 y=%2278%22 rx=%221%22/%3E %3Crect width=%2224%22 height=%222%22 
+x=%2284%22 y=%2231%22 rx=%221%22 transform=%22matrix%28-1 0 0 1 192 0%29%22/%3E 
+%3Crect width=%2281%22 height=%222%22 y=%2266%22 rx=%221%22/%3E %3Crect 
+width=%2214%22 height=%222%22 x=%2254%22 y=%2224%22 rx=%221%22/%3E %3Crect 
+width=%2237%22 height=%222%22 x=%2271%22 y=%2224%22 rx=%221%22/%3E %3Crect 
+width=%2251%22 height=%222%22 y=%2224%22 rx=%221%22/%3E %3Crect width=%22108%22 
+height=%222%22 y=%2259%22 rx=%221%22/%3E %3Crect width=%22108%22 height=%222%22 
+y=%2252%22 rx=%221%22/%3E %3Crect width=%22108%22 height=%222%22 y=%2292%22 
+rx=%221%22/%3E %3Crect width=%22108%22 height=%222%22 y=%2238%22 rx=%221%22/%3E 
+%3Crect width=%2251%22 height=%222%22 rx=%221%22/%3E %3C/g%3E %3Crect 
+width=%2230%22 height=%222%22 x=%2267%22 y=%22158%22 fill=%22%2372777d%22 
+opacity=%22.4%22 rx=%221%22/%3E %3Crect width=%2230%22 height=%222%22 x=%2299%22 
+y=%22158%22 fill=%22%2372777d%22 opacity=%22.4%22 rx=%221%22/%3E %3Cuse 
+fill=%22%2336c%22 xlink:href=%22%23c%22/%3E %3Crect width=%2233%22 
+height=%225%22 x=%22133.5%22 y=%22156.5%22 stroke=%22%23ffc057%22 
+stroke-opacity=%22.447%22 stroke-width=%223%22 rx=%222.5%22/%3E %3Ccircle 
+cx=%2234%22 cy=%2249%22 r=%2219%22 fill=%22%23eaecf0%22/%3E %3Cg 
+fill=%22%23a2a9b1%22 transform=%22translate%285 5%29%22%3E %3Ccircle 
+cx=%221.5%22 cy=%221.5%22 r=%221.5%22/%3E %3Ccircle cx=%226%22 cy=%221.5%22 
+r=%221.5%22/%3E %3Ccircle cx=%2210.5%22 cy=%221.5%22 r=%221.5%22/%3E %3C/g%3E 
+%3Cpath stroke=%22%23ff00af%22 d=%22M174.5 159.5h54.01%22 
+stroke-linecap=%22square%22/%3E %3C/g%3E 
+%3C/svg%3E")}.mw-ui-icon-preview-disambiguation:before{background-image:url(/w/load.php?modules=ext.popups.images&image=preview-disambiguation&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg3
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E articles %3C/title%3E %3Cpath d=%22M5 
+0v2h11v14h2V2a2 2 0 0 0-2-2z%22/%3E %3Cpath d=%22M13 20a2 2 0 0 0 2-2V5a2 2 0 0 
+0-2-2H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2zM9 5h4v5H9zM4 5h4v1H4zm0 2h4v1H4zm0 
+2h4v1H4zm0 2h9v1H4zm0 2h9v1H4zm0 2h9v1H4z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-reference-generic:before{background-image:url(/w/load.php?modules=ext.popups.images&image=reference-generic&format=rasterized&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg 
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E reference %3C/title%3E %3Cpath d=%22M15 
+10l-2.78-2.78L9.44 10V1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 
+0 0 0-2-2z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-reference-book:before{background-image:url(/w/load.php?modules=ext.popups.images&image=reference-book&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvgz
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E book %3C/title%3E %3Cpath d=%22M15 2a7.65 
+7.65 0 0 0-5 2 7.65 7.65 0 0 0-5-2H1v15h4a7.65 7.65 0 0 1 5 2 7.65 7.65 0 0 1 
+5-2h4V2zm2.5 13.5H14a4.38 4.38 0 0 0-3 1V5s1-1.5 4-1.5h2.5z%22/%3E %3Cpath 
+d=%22M9 3.5h2v1H9z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-reference-journal:before{background-image:url(/w/load.php?modules=ext.popups.images&image=reference-journal&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg3
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E journal %3C/title%3E %3Cpath d=%22M2 
+18.5A1.5 1.5 0 0 0 3.5 20H5V0H3.5A1.5 1.5 0 0 0 2 1.5zM6 0v20h10a2 2 0 0 0 
+2-2V2a2 2 0 0 0-2-2zm7 8H8V7h5zm3-2H8V5h8z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-reference-news:before{background-image:url(/w/load.php?modules=ext.popups.images&image=reference-news&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg1
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E newspaper %3C/title%3E %3Cpath d=%22M5 
+2a2 2 0 0 0-2 2v12a1 1 0 0 1-1-1V5h-.5A1.5 1.5 0 0 0 0 6.5v10A1.5 1.5 0 0 0 1.5 
+18H18a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm1 2h11v4H6zm0 6h6v1H6zm0 2h6v1H6zm0 
+2h6v1H6zm7-4h4v5h-4z%22/%3E 
+%3C/svg%3E")}.mw-ui-icon-reference-web:before{background-image:url(/w/load.php?modules=ext.popups.images&image=reference-web&format=rasterized&lang=en&skin=vector&version=1brao);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg5
+xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 
+viewBox=%220 0 20 20%22%3E %3Ctitle%3E browser %3C/title%3E %3Cpath d=%22M2 2a2 
+2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm2 1.5A1.5 1.5 0 1 
+1 2.5 5 1.5 1.5 0 0 1 4 3.5zM18 16H2V8h16z%22/%3E %3C/svg%3E")}
+ @-webkit-keyframes 
+mwe-popups-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@-moz-keyframes1
+mwe-popups-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@keyframesn
+mwe-popups-fade-in-up{0%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@-webkit-keyframesl
+mwe-popups-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@-moz-keyframes,
+mwe-popups-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@keyframes}
+mwe-popups-fade-in-down{0%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}100%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}}@-webkit-keyframeso
+mwe-popups-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}}@-moz-keyframese
+mwe-popups-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}}@keyframes 
+mwe-popups-fade-out-down{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,20px);-moz-transform:translate(0,20px);-ms-transform:translate(0,20px);transform:translate(0,20px)}}@-webkit-keyframesm
+mwe-popups-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}}@-moz-keyframess
+mwe-popups-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}}@keyframesm
+mwe-popups-fade-out-up{0%{opacity:1;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}100%{opacity:0;-webkit-transform:translate(0,-20px);-moz-transform:translate(0,-20px);-ms-transform:translate(0,-20px);transform:translate(0,-20px)}}.mwe-popups-fade-in-up{-webkit-animation:mwe-popups-fade-in-upr
+0.2s ease forwards;-moz-animation:mwe-popups-fade-in-up 0.2s ease 
+forwards;animation:mwe-popups-fade-in-up 0.2s ease 
+forwards}.mwe-popups-fade-in-down{-webkit-animation:mwe-popups-fade-in-down 0.2s 
+ease forwards;-moz-animation:mwe-popups-fade-in-down 0.2s ease 
+forwards;animation:mwe-popups-fade-in-down 0.2s ease 
+forwards}.mwe-popups-fade-out-down{-webkit-animation:mwe-popups-fade-out-down 
+0.2s ease forwards;-moz-animation:mwe-popups-fade-out-down 0.2s ease 
+forwards;animation:mwe-popups-fade-out-down 0.2s ease 
+forwards}.mwe-popups-fade-out-up{-webkit-animation:mwe-popups-fade-out-up 0.2s 
+ease forwards;-moz-animation:mwe-popups-fade-out-up 0.2s ease 
+forwards;animation:mwe-popups-fade-out-up 0.2s ease forwards} 
+#mwe-popups-settings{z-index:1000;background:#fff;width:420px;border:1px solid 
+#a2a9b1;box-shadow:0 2px 2px 0 
+rgba(0,0,0,0.25);border-radius:2px;font-size:14px}#mwe-popups-settings 
+header{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-bottom:1pxs
+solid #c8ccd1;position:relative;display:table;width:100%;padding:5px 7px 5px 
+0}#mwe-popups-settings header > 
+div{display:table-cell;width:3.5em;vertical-align:middle;cursor:pointer}#mwe-popups-settings-
+header 
+h1{margin-bottom:0.6em;padding-top:0.5em;border:0;width:100%;font-family:sans-serif;font-size:18px;font-weight:bold;text-align:center}#mwe-popups-settingsr
+.mwe-ui-icon-popups-close{opacity:0.87;-webkit-transition:opacity 
+100ms;-moz-transition:opacity 100ms;transition:opacity 
+100ms}#mwe-popups-settings 
+.mwe-ui-icon-popups-close:hover{opacity:0.73}#mwe-popups-settings 
+.mwe-ui-icon-popups-close:active{opacity:1}#mwe-popups-settings 
+main{display:block;width:350px;padding:32px 0 24px;margin:0 
+auto}#mwe-popups-settings main p{color:#54595d;font-size:17px;margin:16px 0 
+0}#mwe-popups-settings main p:first-child{margin-top:0}#mwe-popups-settings main 
+form img,#mwe-popups-settings main form input,#mwe-popups-settings main form 
+label{vertical-align:top}#mwe-popups-settings main form 
+img{margin-right:60px}#mwe-popups-settings main form 
+input{display:inline-block;margin:0 10px 0 0;padding:0}#mwe-popups-settings main 
+form 
+label{font-size:13px;display:inline-block;line-height:16px;width:300px}#mwe-popups-settingsd
+main form label > 
+span{color:#000;font-size:18px;font-weight:bold;display:block;margin-bottom:5px;line-height:18px}.mwe-popups-settings-help{font-size:13px;font-weight:800;margin:40px;position:relative}.mwe-popups-settings-helpm
+.mw-ui-icon:before,.mwe-popups-settings-help 
+.mw-ui-icon{height:140px;width:180px;max-width:none;margin:0}.mwe-popups-settings-helpp
+p{left:180px;bottom:20px;position:absolute}.mwe-popups{background:#fff;position:absolute;z-index:110;-webkit-box-shadow:0:
+30px 90px -20px rgba(0,0,0,0.3),0 0 1px 1px rgba(0,0,0,0.05);box-shadow:0 30px 
+90px -20px rgba(0,0,0,0.3),0 0 1px 1px 
+rgba(0,0,0,0.05);padding:0;display:none;font-size:14px;line-height:20px;min-width:300px;border-radius:2px;s
+}.mwe-popups .mw-ui-icon{font-size:16px}.mwe-popups 
+.mw-ui-icon:before{background-size:20px;min-height:20px}.mwe-popups 
+.mw-ui-icon-preview-disambiguation,.mwe-popups 
+.mw-ui-icon-preview-generic{margin:21px 0 8px 0;opacity:0.25}.mwe-popups 
+.mwe-popups-container{color:#222222;margin-top:-9px;padding-top:9px;text-decoration:none}.mwe-popupse
+.mwe-popups-container 
+footer{padding:16px;margin:0;font-size:10px;position:absolute;bottom:0;left:0}.mwe-popupsx
+.mwe-popups-extract{margin:16px;display:block;color:#222222;text-decoration:none;position:relative;p
+}.mwe-popups .mwe-popups-extract:hover{text-decoration:none}.mwe-popups 
+.mwe-popups-extract:after{content:' 
+';position:absolute;bottom:0;width:25%;height:20px;background-color:transparent;pointer-events:none}.mwe-popups0
+.mwe-popups-extract[dir='ltr']:after{ right:0; 
+background-image:-webkit-linear-gradient(to right,rgba(255,255,255,0),#ffffff 
+50%); background-image:-moz-linear-gradient(to right,rgba(255,255,255,0),#ffffff 
+50%); background-image:linear-gradient(to right,rgba(255,255,255,0),#ffffff 
+50%)}.mwe-popups .mwe-popups-extract[dir='rtl']:after{ left:0; 
+background-image:-webkit-linear-gradient(to left,rgba(255,255,255,0),#ffffff 
+50%); background-image:-moz-linear-gradient(to left,rgba(255,255,255,0),#ffffff 
+50%); background-image:linear-gradient(to left,rgba(255,255,255,0),#ffffff 
+50%)}.mwe-popups .mwe-popups-extract p{margin:0}.mwe-popups .mwe-popups-extract 
+ul,.mwe-popups .mwe-popups-extract ol,.mwe-popups .mwe-popups-extract 
+li,.mwe-popups .mwe-popups-extract dl,.mwe-popups .mwe-popups-extract 
+dd,.mwe-popups .mwe-popups-extract dt{margin-top:0;margin-bottom:0}.mwe-popups 
+svg{overflow:hidden}.mwe-popups.mwe-popups-is-tall{width:450px}.mwe-popups.mwe-popups-is-tall'
+> div > a > svg{vertical-align:middle}.mwe-popups.mwe-popups-is-tall 
+.mwe-popups-extract{width:215px;height:180px;overflow:hidden;float:left}.mwe-popups.mwe-popups-is-tall)
+footer{width:215px;left:0}.mwe-popups.mwe-popups-is-not-tall{width:320px}.mwe-popups.mwe-popups-is-not-tallp
+.mwe-popups-extract{min-height:40px;max-height:140px;overflow:hidden;margin-bottom:47px;padding-bottom:0}.mwe-popups.mwe-popups-is-not-tall:
+footer{width:290px}.mwe-popups.mwe-popups-type-generic 
+.mwe-popups-extract,.mwe-popups.mwe-popups-type-disambiguation 
+.mwe-popups-extract{min-height:auto;padding-top:4px;margin-bottom:60px;margin-top:0}.mwe-popups.mwe-popups-type-generics
+.mwe-popups-read-link,.mwe-popups.mwe-popups-type-disambiguation 
+.mwe-popups-read-link{font-weight:bold;font-size:12px}.mwe-popups.mwe-popups-type-genericr
+.mwe-popups-extract:hover + footer 
+.mwe-popups-read-link,.mwe-popups.mwe-popups-type-disambiguation 
+.mwe-popups-extract:hover + footer 
+.mwe-popups-read-link{text-decoration:underline}.mwe-popups.mwe-popups-no-image-pointer:before{content:'';position:absolute;border:8px1
+solid transparent;border-top:0;border-bottom:8px solid 
+rgba(0,0,0,0.07000000000000001);top:-8px;left:10px}.mwe-popups.mwe-popups-no-image-pointer:after{content:'';position:absolute;border:11pxp
+solid transparent;border-top:0;border-bottom:11px solid 
+#ffffff;top:-7px;left:7px}.mwe-popups.flipped-x.mwe-popups-no-image-pointer:before{left:auto;right:10px}.mwe-popups.flipped-x.mwe-popups-no-image-pointer:after{left:auto;right:7px}.mwe-popups.mwe-popups-image-pointer:before{content:'';position:absolute;border:9pxm
+solid transparent;border-top:0;border-bottom:9px solid 
+#a2a9b1;top:-9px;left:9px;z-index:111}.mwe-popups.mwe-popups-image-pointer:after{content:'';position:absolute;border:12pxp
+solid transparent;border-top:0;border-bottom:12px solid 
+#ffffff;top:-8px;left:6px;z-index:112}.mwe-popups.mwe-popups-image-pointer.flipped-x:before{content:'';position:absolute;border:9px-
+solid transparent;border-top:0;border-bottom:9px solid 
+#a2a9b1;top:-9px;left:293px}.mwe-popups.mwe-popups-image-pointer.flipped-x:after{content:'';position:absolute;border:12pxx
+solid transparent;border-top:0;border-bottom:12px solid 
+#ffffff;top:-8px;left:290px}.mwe-popups.mwe-popups-image-pointer 
+.mwe-popups-extract{padding-top:16px;margin-top:200px}.mwe-popups.mwe-popups-image-pointers
+> div > a > 
+svg{margin-top:-8px;position:absolute;z-index:113;left:0}.mwe-popups.flipped-x.mwe-popups-is-tall{min-height:242px}.mwe-popups.flipped-x.mwe-popups-is-tall:before{content:'';position:absolute;border:9pxa
+solid transparent;border-top:0;border-bottom:9px solid 
+#a2a9b1;top:-9px;left:420px;z-index:111}.mwe-popups.flipped-x.mwe-popups-is-tall 
+> div > a > 
+svg{margin:0;margin-top:-8px;margin-bottom:-7px;position:absolute;z-index:113;right:0}.mwe-popups.flipped-x-y:before{content:'';position:absolute;border:9px'
+solid transparent;border-bottom:0;border-top:9px solid 
+#a2a9b1;bottom:-9px;left:293px;z-index:111}.mwe-popups.flipped-x-y:after{content:'';position:absolute;border:12pxo
+solid transparent;border-bottom:0;border-top:12px solid 
+#ffffff;bottom:-8px;left:290px;z-index:112}.mwe-popups.flipped-x-y.mwe-popups-is-tall{min-height:242px}.mwe-popups.flipped-x-y.mwe-popups-is-tall:before{content:'';position:absolute;border:9pxe
+solid transparent;border-bottom:0;border-top:9px solid 
+#a2a9b1;bottom:-9px;left:420px}.mwe-popups.flipped-x-y.mwe-popups-is-tall:after{content:'';position:absolute;border:12pxe
+solid transparent;border-bottom:0;border-top:12px solid 
+#ffffff;bottom:-8px;left:417px}.mwe-popups.flipped-x-y.mwe-popups-is-tall > div 
+> a > 
+svg{margin:0;margin-bottom:-9px;position:absolute;z-index:113;right:0}.mwe-popups.flipped-y:before{content:'';position:absolute;border:8pxb
+solid transparent;border-bottom:0;border-top:8px solid 
+#a2a9b1;bottom:-8px;left:10px}.mwe-popups.flipped-y:after{content:'';position:absolute;border:11px:
+solid transparent;border-bottom:0;border-top:11px solid 
+#ffffff;bottom:-7px;left:7px}.mwe-popups-is-tall 
+polyline{-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}.mwe-popups-is-tall.flipped-x-ya
+polyline{-webkit-transform:translate(0,-8px);-moz-transform:translate(0,-8px);-ms-transform:translate(0,-8px);transform:translate(0,-8px)}.mwe-popups-is-tall.flipped-xs
+polyline{-webkit-transform:translate(0,8px);-moz-transform:translate(0,8px);-ms-transform:translate(0,8px);transform:translate(0,8px)}.rtlm
+.mwe-popups-is-tall 
+polyline{-webkit-transform:translate(-100%,0);-moz-transform:translate(-100%,0);-ms-transform:translate(-100%,0);transform:translate(-100%,0)}.rtlr
+.mwe-popups-is-tall.flipped-x-y 
+polyline{-webkit-transform:translate(-100%,-8px);-moz-transform:translate(-100%,-8px);-ms-transform:translate(-100%,-8px);transform:translate(-100%,-8px)}.rtl:
+.mwe-popups-is-tall.flipped-x 
+polyline{-webkit-transform:translate(-100%,8px);-moz-transform:translate(-100%,8px);-ms-transform:translate(-100%,8px);transform:translate(-100%,8px)}.mwe-popups-settings-icon{display:block;overflow:hidden;font-size:16px;width:1.5em;height:1.5em;padding:3px;float:right;margin:4pxt
+4px 2px 
+4px;text-indent:-1em;border-radius:2px;-webkit-transition:background-color 
+100ms;-moz-transition:background-color 100ms;transition:background-color 
+100ms}.mwe-popups-settings-icon:hover{background-color:#eaecf0}.mwe-popups-settings-icon:active{background-color:#c8ccd1}.mwe-popupsn
+.mwe-popups-title{display:block;font-weight:bold;margin:0 16px}#mw-content-text 
+.reference a[href*='#'] 
+*{pointer-events:none}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-title{margin-top:16px}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-title 
+.mw-ui-icon{vertical-align:middle}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-title 
+.mw-ui-icon.mw-ui-icon-element{min-width:1.5em;width:1.5em}.mwe-popups.mwe-popups-type-referencei
+.mwe-popups-title 
+.mw-ui-icon.mw-ui-icon-element:before{margin:0}.mwe-popups.mwe-popups-type-referencer
+.mwe-popups-title .mw-ui-icon.mw-ui-icon-reference-generic{ 
+margin-left:-2px}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-extract{margin-bottom:55px;max-height:100px;min-height:20px}.mwe-popups.mwe-popups-type-referencei
+.mwe-popups-extract:after{display:none}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-extract 
+.mwe-popups-fade{position:absolute;width:100%;height:20px;background-color:transparent;background-image:-webkit-linear-gradient(top,rgba(255,255,255,0),#ffffff);background-image:-moz-linear-gradient(top,rgba(255,255,255,0),#ffffff);background-image:linear-gradient(rgba(255,255,255,0),#ffffff);opacity:0;pointer-events:none;-webkit-transition:opacity-
+250ms ease;-moz-transition:opacity 250ms ease;transition:opacity 250ms 
+ease}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-extract.mwe-popups-fade-out 
+.mwe-popups-fade{opacity:1}.mwe-popups.mwe-popups-type-reference 
+.mwe-popups-extract 
+.mw-parser-output{max-height:inherit;overflow:auto}.mwe-popups.mwe-popups-type-reference-
+.mwe-popups-read-link{font-size:12px}.mwe-popups-overlay{background-color:rgba(255,255,255,0.9);z-index:999;position:fixed;height:100%;width:100%;top:0;bottom:0;left:0;right:0;display:flex;justify-content:center;align-items:center}#mwe-popups-svg{position:absolute;top:-1000px}                   
+
+
+ 
+
+
+
+
+ 
+Python (programming language)
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+
+Jump to search
+
+
+
+For other uses, see Python.
+
+General-purpose, high-level programming language
+
+
+
+  Python
+
+
+
+    Paradigm
+      Multi-paradigm: functional, imperative, object-oriented, reflective
+
+    Designed by
+      Guido van Rossum
+
+    Developer
+      Python Software Foundation
+
+    First appeared
+      1990; 30 years ago (1990)[1]
+
+
+    Stable release
+
+      3.8.1 / 18 December 2019; 53 days ago (2019-12-18)[2]
+
+
+    Preview release
+
+      3.9.0a3 / 24 January 2020; 16 days ago (2020-01-24)[3]
+
+
+
+    Typing discipline
+      Duck, dynamic, gradual (since 3.5)[4]
+
+    License
+      Python Software Foundation License
+
+    Filename extensions
+      .py, .pyi, .pyc, .pyd, .pyo (prior to 3.5),[5] .pyw, .pyz (since 3.5)[6]
+
+    Website
+      www.python.org
+
+    Major implementations
+
+      CPython, PyPy, Stackless Python, MicroPython, CircuitPython, IronPython, 
+      Jython, RustPython
+
+    Dialects
+
+      Cython, RPython, Starlark[7]
+
+    Influenced by
+
+      ABC,[8], Ada [9], ALGOL 68,[10] APL,[11] C,[12] C++,[13] CLU,[14] 
+      Dylan,[15] Haskell,[16] Icon,[17] Java,[18] Lisp,[19] Modula-3,[13] Perl, 
+      Standard ML[11]
+
+    Influenced
+
+      Apache Groovy, Boo, Cobra, CoffeeScript,[20] D, F#, Genie,[21] Go, 
+      JavaScript,[22][23] Julia,[24] Nim, Ring,[25] Ruby,[26] Swift[27]
+         Python Programming at Wikibooks
+
+
+Python is an interpreted, high-level, general-purpose programming language. 
+Created by Guido van Rossum and first released in 1991, Python's design 
+philosophy emphasizes code readability with its notable use of significant 
+whitespace. Its language constructs and object-oriented approach aim to help 
+programmers write clear, logical code for small and large-scale projects.[28] 
+
+Python is dynamically typed and garbage-collected. It supports multiple 
+programming paradigms, including procedural, object-oriented, and functional 
+programming. Python is often described as a "batteries included" language due to 
+its comprehensive standard library.[29] 
+
+Python was conceived in the late 1980s as a successor to the ABC language. 
+Python 2.0, released in 2000, introduced features like list comprehensions and a 
+garbage collection system capable of collecting reference cycles. Python 3.0, 
+released in 2008, was a major revision of the language that is not completely 
+backward-compatible, and much Python 2 code does not run unmodified on Python 3. 
+
+The Python 2 language, i.e. Python 2.7.x, was officially discontinued on 1 
+January 2020 (first planned for 2015) after which security patches and other 
+improvements will not be released for it.[30][31] With Python 2's end-of-life, 
+only Python 3.5.x[32] and later are supported. 
+
+Python interpreters are available for many operating systems. A global community 
+of programmers develops and maintains CPython, an open source[33] reference 
+implementation. A non-profit organization, the Python Software Foundation, 
+manages and directs resources for Python and CPython development. 
+
+
+Contents
+  1 History
+  2 Features and philosophy
+  3 Syntax and semantics 3.1 Indentation
+    3.2 Statements and control flow
+    3.3 Expressions
+    3.4 Methods
+    3.5 Typing
+    3.6 Mathematics
+
+  4 Python programming examples
+  5 Libraries
+  6 Development environments
+  7 Implementations 7.1 Reference implementation
+    7.2 Other implementations
+    7.3 Unsupported implementations
+    7.4 Cross-compilers to other languages
+    7.5 Performance
+
+  8 Development
+  9 Naming
+  10 API documentation generators
+  11 Uses
+  12 Languages influenced by Python
+  13 See also
+  14 References 14.1 Sources
+
+  15 Further reading
+  16 External links
+
+History[edit]
+
+
+ 
+
+
+Guido van Rossum at OSCON 2006
+Main article: History of Python
+
+Python was conceived in the late 1980s[34] by Guido van Rossum at Centrum 
+Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC 
+language (itself inspired by SETL),[35] capable of exception handling and 
+interfacing with the Amoeba operating system.[8] Its implementation began in 
+December 1989.[36] Van Rossum shouldered sole responsibility for the project, as 
+the lead developer, until 12 July 2018, when he announced his "permanent 
+vacation" from his responsibilities as Python's Benevolent Dictator For Life, a 
+title the Python community bestowed upon him to reflect his long-term commitment 
+as the project's chief decision-maker.[37] He now shares his leadership as a 
+member of a five-person steering council.[38][39][40] In January 2019, active 
+Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol 
+Willing and Van Rossum to a five-member "Steering Council" to lead the 
+project.[41] 
+
+Python 2.0 was released on 16 October 2000 with many major new features, 
+including a cycle-detecting garbage collector and support for Unicode.[42] 
+
+Python 3.0 was released on 3 December 2008. It was a major revision of the 
+language that is not completely backward-compatible.[43] Many of its major 
+features were backported to Python 2.6.x[44] and 2.7.x version series. Releases 
+of Python 3 include the 2to3 utility, which automates (at least partially) the 
+translation of Python 2 code to Python 3.[45] 
+
+Python 2.7's end-of-life date was initially set at 2015 then postponed to 2020 
+out of concern that a large body of existing code could not easily be 
+forward-ported to Python 3.[46][47] 
+
+Features and philosophy[edit]
+
+Python is a multi-paradigm programming language. Object-oriented programming and 
+structured programming are fully supported, and many of its features support 
+functional programming and aspect-oriented programming (including by 
+metaprogramming[48] and metaobjects (magic methods)).[49] Many other paradigms 
+are supported via extensions, including design by contract[50][51] and logic 
+programming.[52] 
+
+Python uses dynamic typing and a combination of reference counting and a 
+cycle-detecting garbage collector for memory management. It also features 
+dynamic name resolution (late binding), which binds method and variable names 
+during program execution. 
+
+Python's design offers some support for functional programming in the Lisp 
+tradition. It has filter, map, and reduce functions; list comprehensions, 
+dictionaries, sets, and generator expressions.[53] The standard library has two 
+modules (itertools and functools) that implement functional tools borrowed from 
+Haskell and Standard ML.[54] 
+
+The language's core philosophy is summarized in the document The Zen of Python 
+(PEP 20), which includes aphorisms such as:[55] 
+  Beautiful is better than ugly.
+  Explicit is better than implicit.
+  Simple is better than complex.
+  Complex is better than complicated.
+  Readability counts.
+
+Rather than having all of its functionality built into its core, Python was 
+designed to be highly extensible. This compact modularity has made it 
+particularly popular as a means of adding programmable interfaces to existing 
+applications. Van Rossum's vision of a small core language with a large standard 
+library and easily extensible interpreter stemmed from his frustrations with 
+ABC, which espoused the opposite approach.[34] 
+
+Python strives for a simpler, less-cluttered syntax and grammar while giving 
+developers a choice in their coding methodology. In contrast to Perl's "there is 
+more than one way to do it" motto, Python embraces a "there should be one—and 
+preferably only one—obvious way to do it" design philosophy.[55] Alex Martelli, 
+a Fellow at the Python Software Foundation and Python book author, writes that 
+"To describe something as 'clever' is not considered a compliment in the Python 
+culture."[56] 
+
+Python's developers strive to avoid premature optimization, and reject patches 
+to non-critical parts of the CPython reference implementation that would offer 
+marginal increases in speed at the cost of clarity.[57] When speed is important, 
+a Python programmer can move time-critical functions to extension modules 
+written in languages such as C, or use PyPy, a just-in-time compiler. Cython is 
+also available, which translates a Python script into C and makes direct C-level 
+API calls into the Python interpreter. 
+
+An important goal of Python's developers is keeping it fun to use. This is 
+reflected in the language's name—a tribute to the British comedy group Monty 
+Python[58]—and in occasionally playful approaches to tutorials and reference 
+materials, such as examples that refer to spam and eggs (from a famous Monty 
+Python sketch) instead of the standard foo and bar.[59][60] 
+
+A common neologism in the Python community is pythonic, which can have a wide 
+range of meanings related to program style. To say that code is pythonic is to 
+say that it uses Python idioms well, that it is natural or shows fluency in the 
+language, that it conforms with Python's minimalist philosophy and emphasis on 
+readability. In contrast, code that is difficult to understand or reads like a 
+rough transcription from another programming language is called unpythonic. 
+
+Users and admirers of Python, especially those considered knowledgeable or 
+experienced, are often referred to as Pythonistas.[61][62] 
+
+Syntax and semantics[edit]
+
+Main article: Python syntax and semantics
+
+Python is meant to be an easily readable language. Its formatting is visually 
+uncluttered, and it often uses English keywords where other languages use 
+punctuation. Unlike many other languages, it does not use curly brackets to 
+delimit blocks, and semicolons after statements are optional. It has fewer 
+syntactic exceptions and special cases than C or Pascal.[63] 
+
+Indentation[edit]
+
+Main article: Python syntax and semantics § Indentation
+
+Python uses whitespace indentation, rather than curly brackets or keywords, to 
+delimit blocks. An increase in indentation comes after certain statements; a 
+decrease in indentation signifies the end of the current block.[64] Thus, the 
+program's visual structure accurately represents the program's semantic 
+structure.[1] This feature is sometimes termed the off-side rule, which some 
+other languages share, but in most languages indentation doesn't have any 
+semantic meaning. 
+
+Statements and control flow[edit]
+
+Python's statements include (among others): 
+  The assignment statement (token '=', the equals sign). This operates 
+  differently than in traditional imperative programming languages, and this 
+  fundamental mechanism (including the nature of Python's version of variables) 
+  illuminates many other features of the language. Assignment in C, e.g., x = 2, 
+  translates to "typed variable name x receives a copy of numeric value 2". The 
+  (right-hand) value is copied into an allocated storage location for which the 
+  (left-hand) variable name is the symbolic address. The memory allocated to the 
+  variable is large enough (potentially quite large) for the declared type. In 
+  the simplest case of Python assignment, using the same example, x = 2, 
+  translates to "(generic) name x receives a reference to a separate, 
+  dynamically allocated object of numeric (int) type of value 2." This is termed 
+  binding the name to the object. Since the name's storage location doesn't 
+  contain the indicated value, it is improper to call it a variable. Names may 
+  be subsequently rebound at any time to objects of greatly varying types, 
+  including strings, procedures, complex objects with data and methods, etc. 
+  Successive assignments of a common value to multiple names, e.g., x = 2; y = 
+  2; z = 2 result in allocating storage to (at most) three names and one numeric 
+  object, to which all three names are bound. Since a name is a generic 
+  reference holder it is unreasonable to associate a fixed data type with it. 
+  However at a given time a name will be bound to some object, which will have a 
+  type; thus there is dynamic typing.
+  The if statement, which conditionally executes a block of code, along with 
+  else and elif (a contraction of else-if).
+  The for statement, which iterates over an iterable object, capturing each 
+  element to a local variable for use by the attached block.
+  The while statement, which executes a block of code as long as its condition 
+  is true.
+  The try statement, which allows exceptions raised in its attached code block 
+  to be caught and handled by except clauses; it also ensures that clean-up code 
+  in a finally block will always be run regardless of how the block exits.
+  The raise statement, used to raise a specified exception or re-raise a caught 
+  exception.
+  The class statement, which executes a block of code and attaches its local 
+  namespace to a class, for use in object-oriented programming.
+  The def statement, which defines a function or method.
+  The with statement, from Python 2.5 released in September 2006,[65] which 
+  encloses a code block within a context manager (for example, acquiring a lock 
+  before the block of code is run and releasing the lock afterwards, or opening 
+  a file and then closing it), allowing Resource Acquisition Is Initialization 
+  (RAII)-like behavior and replaces a common try/finally idiom.[66]
+  The break statement, exits from the loop.
+  The continue statement, skips this iteration and continues with the next item.
+  The pass statement, which serves as a NOP. It is syntactically needed to 
+  create an empty code block.
+  The assert statement, used during debugging to check for conditions that ought 
+  to apply.
+  The yield statement, which returns a value from a generator function. From 
+  Python 2.5, yield is also an operator. This form is used to implement 
+  coroutines.
+  The import statement, which is used to import modules whose functions or 
+  variables can be used in the current program. There are three ways of using 
+  import: import <module name> [as <alias>] or from <module name> import * or 
+  from <module name> import <definition 1> [as <alias 1>], <definition 2> [as 
+  <alias 2>], ....
+  The print statement was changed to the print() function in Python 3.[67]
+
+Python does not support tail call optimization or first-class continuations, 
+and, according to Guido van Rossum, it never will.[68][69] However, better 
+support for coroutine-like functionality is provided in 2.5, by extending 
+Python's generators.[70] Before 2.5, generators were lazy iterators; information 
+was passed unidirectionally out of the generator. From Python 2.5, it is 
+possible to pass information back into a generator function, and from Python 
+3.3, the information can be passed through multiple stack levels.[71] 
+
+Expressions[edit]
+
+Some Python expressions are similar to languages such as C and Java, while some 
+are not: 
+  Addition, subtraction, and multiplication are the same, but the behavior of 
+  division differs. There are two types of divisions in Python. They are floor 
+  division (or integer division) // and floating point/division.[72] Python also 
+  added the ** operator for exponentiation.
+  From Python 3.5, the new @ infix operator was introduced. It is intended to be 
+  used by libraries such as NumPy for matrix multiplication.[73][74]
+  From Python 3.8, the syntax :=, called the 'walrus operator' was introduced. 
+  It assigns values to variables as part of a larger expression.[75]
+  In Python, == compares by value, versus Java, which compares numerics by 
+  value[76] and objects by reference.[77] (Value comparisons in Java on objects 
+  can be performed with the equals() method.) Python's is operator may be used 
+  to compare object identities (comparison by reference). In Python, comparisons 
+  may be chained, for example a <= b <= c.
+  Python uses the words and, or, not for its boolean operators rather than the 
+  symbolic &&, ||, ! used in Java and C.
+  Python has a type of expression termed a list comprehension. Python 2.4 
+  extended list comprehensions into a more general expression termed a generator 
+  expression.[53]
+  Anonymous functions are implemented using lambda expressions; however, these 
+  are limited in that the body can only be one expression.
+  Conditional expressions in Python are written as x if c else y[78] (different 
+  in order of operands from the c ? x : y operator common to many other 
+  languages).
+  Python makes a distinction between lists and tuples. Lists are written as [1, 
+  2, 3], are mutable, and cannot be used as the keys of dictionaries (dictionary 
+  keys must be immutable in Python). Tuples are written as (1, 2, 3), are 
+  immutable and thus can be used as the keys of dictionaries, provided all 
+  elements of the tuple are immutable. The + operator can be used to concatenate 
+  two tuples, which does not directly modify their contents, but rather produces 
+  a new tuple containing the elements of both provided tuples. Thus, given the 
+  variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first 
+  evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned 
+  back to t, thereby effectively "modifying the contents" of t, while conforming 
+  to the immutable nature of tuple objects. Parentheses are optional for tuples 
+  in unambiguous contexts.[79]
+  Python features sequence unpacking wherein multiple expressions, each 
+  evaluating to anything that can be assigned to (a variable, a writable 
+  property, etc.), are associated in the identical manner to that forming tuple 
+  literals and, as a whole, are put on the left hand side of the equal sign in 
+  an assignment statement. The statement expects an iterable object on the right 
+  hand side of the equal sign that produces the same number of values as the 
+  provided writable expressions when iterated through, and will iterate through 
+  it, assigning each of the produced values to the corresponding expression on 
+  the left.[80]
+  Python has a "string format" operator %. This functions analogous to printf 
+  format strings in C, e.g. "spam=%s eggs=%d" % ("blah", 2) evaluates to 
+  "spam=blah eggs=2". In Python 3 and 2.6+, this was supplemented by the 
+  format() method of the str class, e.g. "spam={0} eggs={1}".format("blah", 2). 
+  Python 3.6 added "f-strings": blah = "blah"; eggs = 2; f'spam={blah} 
+  eggs={eggs}'.[81]
+  Python has various kinds of string literals: Strings delimited by single or 
+    double quote marks. Unlike in Unix shells, Perl and Perl-influenced 
+    languages, single quote marks and double quote marks function identically. 
+    Both kinds of string use the backslash (\) as an escape character. String 
+    interpolation became available in Python 3.6 as "formatted string 
+    literals".[81]
+    Triple-quoted strings, which begin and end with a series of three single or 
+    double quote marks. They may span multiple lines and function like here 
+    documents in shells, Perl and Ruby.
+    Raw string varieties, denoted by prefixing the string literal with an r. 
+    Escape sequences are not interpreted; hence raw strings are useful where 
+    literal backslashes are common, such as regular expressions and 
+    Windows-style paths. Compare "@-quoting" in C#.
+
+  Python has array index and array slicing expressions on lists, denoted as 
+  a[key], a[start:stop] or a[start:stop:step]. Indexes are zero-based, and 
+  negative indexes are relative to the end. Slices take elements from the start 
+  index up to, but not including, the stop index. The third slice parameter, 
+  called step or stride, allows elements to be skipped and reversed. Slice 
+  indexes may be omitted, for example a[:] returns a copy of the entire list. 
+  Each element of a slice is a shallow copy.
+
+In Python, a distinction between expressions and statements is rigidly enforced, 
+in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to 
+duplicating some functionality. For example: 
+  List comprehensions vs. for-loops
+  Conditional expressions vs. if blocks
+  The eval() vs. exec() built-in functions (in Python 2, exec is a statement); 
+  the former is for expressions, the latter is for statements.
+
+Statements cannot be a part of an expression, so list and other comprehensions 
+or lambda expressions, all being expressions, cannot contain statements. A 
+particular case of this is that an assignment statement such as a = 1 cannot 
+form part of the conditional expression of a conditional statement. This has the 
+advantage of avoiding a classic C error of mistaking an assignment operator = 
+for an equality operator == in conditions: if (c = 1) { ... } is syntactically 
+valid (but probably unintended) C code but if c = 1: ... causes a syntax error 
+in Python. 
+
+Methods[edit]
+
+Methods on objects are functions attached to the object's class; the syntax 
+instance.method(argument) is, for normal methods and functions, syntactic sugar 
+for Class.method(instance, argument). Python methods have an explicit self 
+parameter to access instance data, in contrast to the implicit self (or this) in 
+some other object-oriented programming languages (e.g., C++, Java, Objective-C, 
+or Ruby).[82] 
+
+Typing[edit]
+
+
+ 
+
+
+The standard type hierarchy in Python 3
+Python uses duck typing and has typed objects but untyped variable names. Type 
+constraints are not checked at compile time; rather, operations on an object may 
+fail, signifying that the given object is not of a suitable type. Despite being 
+dynamically typed, Python is strongly typed, forbidding operations that are not 
+well-defined (for example, adding a number to a string) rather than silently 
+attempting to make sense of them. 
+
+Python allows programmers to define their own types using classes, which are 
+most often used for object-oriented programming. New instances of classes are 
+constructed by calling the class (for example, SpamClass() or EggsClass()), and 
+the classes are instances of the metaclass type (itself an instance of itself), 
+allowing metaprogramming and reflection. 
+
+Before version 3.0, Python had two kinds of classes: old-style and 
+new-style.[83] The syntax of both styles is the same, the difference being 
+whether the class object is inherited from, directly or indirectly (all 
+new-style classes inherit from object and are instances of type). In versions of 
+Python 2 from Python 2.2 onwards, both kinds of classes can be used. Old-style 
+classes were eliminated in Python 3.0. 
+
+The long term plan is to support gradual typing[84] and from Python 3.5, the 
+syntax of the language allows specifying static types but they are not checked 
+in the default implementation, CPython. An experimental optional static type 
+checker named mypy supports compile-time type checking.[85] 
+
+  Summary of Python 3's built-in types 
+
+
+    Type 
+
+    Mutability 
+
+    Description 
+
+    Syntax examples 
+
+      bool immutable Boolean value True
+      False 
+      bytearray mutable Sequence of bytes bytearray(b'Some ASCII')
+      bytearray(b"Some ASCII")
+      bytearray([119, 105, 107, 105]) 
+      bytes immutable Sequence of bytes b'Some ASCII'
+      b"Some ASCII"
+      bytes([119, 105, 107, 105]) 
+      complex immutable Complex number with real and imaginary parts 3+2.7j 
+      dict mutable Associative array (or dictionary) of key and value pairs; can 
+      contain mixed types (keys and values), keys must be a hashable type 
+      {'key1': 1.0, 3: False}
+      {} 
+      ellipsisa immutable An ellipsis placeholder to be used as an index in 
+      NumPy arrays ...
+      Ellipsis 
+      float immutable Double precision floating point number. The precision is 
+      machine dependent but in practice is 64 bits.[citation needed] 3.1415927 
+      frozenset immutable Unordered set, contains no duplicates; can contain 
+      mixed types, if hashable frozenset([4.0, 'string', True]) 
+      int immutable Integer of unlimited magnitude[86] 42 
+      list mutable List, can contain mixed types [4.0, 'string', True]
+      [] 
+      NoneTypea immutable An object representing the absence of a value, often 
+      called Null in other languages None 
+      NotImplementedTypea immutable A placeholder that can be returned from 
+      overloaded operators to indicate unsupported operand types. NotImplemented 
+      range immutable A Sequence of numbers commonly used for looping specific 
+      number of times in for loops[87] range(1, 10)
+      range(10, -5, -2) 
+      set mutable Unordered set, contains no duplicates; can contain mixed 
+      types, if hashable {4.0, 'string', True}
+      set() 
+      str immutable A character string: sequence of Unicode codepoints 
+      'Wikipedia'
+      "Wikipedia"
+
+"""Spanning
+multiple
+lines"""
+
+      tuple immutable Can contain mixed types (4.0, 'string', True)
+      ('single element',)
+      () 
+
+^a Not directly accessible by name 
+
+Mathematics[edit]
+
+Python has the usual symbols for arithmetic operators (+, -, *, /), and the 
+remainder operator % (where the remainder can be negative, e.g. 4 % -3 == -2). 
+It also has ** for exponentiation, e.g. 5**3 == 125 and 9**0.5 == 3.0, and a 
+matrix multiply @ operator.[88] These operators work like in traditional math; 
+with the same precedence rules, the operators infix ( + and - can also be unary 
+to represent positive and negative numbers respectively). Additionally, it has a 
+unary operator (~), which essentially inverts all the bits of its one argument. 
+For integers, this means ~x=-x-1.[89] Other operators include bitwise shift 
+operators x << y, which shifts x to the left y places, the same as x*(2**y) , 
+and x >> y, which shifts x to the right y places, the same as x//(2**y).[90] 
+
+The behavior of division has changed significantly over time so that division 
+between integers produces floating point results:[91] 
+  Python 2.1 and earlier use the C division behavior. The / operator is integer 
+  division if both operands are integers, and floating-point division otherwise. 
+  Integer division rounds towards 0, e.g. 7/3 == 2 and -7/3 == -2.
+  Python 2.2 changes integer division to round towards negative infinity, e.g. 
+  7/3 == 2 and -7/3 == -3. The floor division // operator is introduced. So 7//3 
+  == 2, -7//3 == -3, 7.5//3 == 2.0 and -7.5//3 == -3.0. Adding from __future__ 
+  import division causes a module to use Python 3.0 rules for division (see 
+  next).
+  Python 3.0 changes / to always be floating-point division, e.g. 5/2 == 2.5.
+
+In Python terms, / before version 3.0 is classic division, / in versions 3.0 and 
+higher is true division, and // is floor division.[91] 
+
+Rounding towards negative infinity, though different from most languages, adds 
+consistency. For instance, it means that the equation (a + b)//b == a//b + 1 is 
+always true. It also means that the equation b*(a//b) + a%b == a is valid for 
+both positive and negative values of a. However, maintaining the validity of 
+this equation means that while the result of a%b is, as expected, in the 
+half-open interval [0, b), where b is a positive integer, it has to lie in the 
+interval (b, 0] when b is negative.[92] 
+
+Python provides a round function for rounding a float to the nearest integer. 
+For tie-breaking, versions before 3 use round-away-from-zero: round(0.5) is 1.0, 
+round(-0.5) is −1.0.[93] Python 3 uses round to even: round(1.5) is 2, 
+round(2.5) is 2.[94] 
+
+Python allows boolean expressions with multiple equality relations in a manner 
+that is consistent with general use in mathematics. For example, the expression 
+a < b < c tests whether a is less than b and b is less than c.[95] C-derived 
+languages interpret this expression differently: in C, the expression would 
+first evaluate a < b, resulting in 0 or 1, and that result would then be 
+compared with c.[96] 
+
+Python has extensive built-in support for arbitrary-precision arithmetic. 
+Integers are transparently switched from the machine-supported maximum 
+fixed-precision (usually 32 or 64 bits), belonging to the python type int, to 
+arbitrary precision, belonging to the Python type long, where needed. The latter 
+have an "L" suffix in their textual representation.[97] (In Python 3, the 
+distinction between the int and long types was eliminated; this behavior is now 
+entirely contained by the int class.) The Decimal type/class in module decimal 
+(since version 2.4) provides decimal floating point numbers to arbitrary 
+precision and several rounding modes.[98] The Fraction type in module fractions 
+(since version 2.6) provides arbitrary precision for rational numbers.[99] 
+
+Due to Python's extensive mathematics library, and the third-party library NumPy 
+that further extends the native capabilities, it is frequently used as a 
+scientific scripting language to aid in problems such as numerical data 
+processing and manipulation.[100][101] 
+
+Python programming examples[edit]
+
+Hello world program: 
+
+print('Hello, world!')
+
+Program to calculate the factorial of a positive integer: 
+
+n = int(input('Type a number, then its factorial will be printed: '))
+
+if n < 0:
+    raise ValueError('You must enter a positive number')
+
+fact = 1
+i = 2
+while i <= n:
+    fact = fact * i
+    i += 1
+
+print(fact)
+
+Libraries[edit]
+
+Python's large standard library, commonly cited as one of its greatest 
+strengths,[102] provides tools suited to many tasks. For Internet-facing 
+applications, many standard formats and protocols such as MIME and HTTP are 
+supported. It includes modules for creating graphical user interfaces, 
+connecting to relational databases, generating pseudorandom numbers, arithmetic 
+with arbitrary-precision decimals,[103] manipulating regular expressions, and 
+unit testing. 
+
+Some parts of the standard library are covered by specifications (for example, 
+the Web Server Gateway Interface (WSGI) implementation wsgiref follows PEP 
+333[104]), but most modules are not. They are specified by their code, internal 
+documentation, and test suites (if supplied). However, because most of the 
+standard library is cross-platform Python code, only a few modules need altering 
+or rewriting for variant implementations. 
+
+As of November 2019,[update] the Python Package Index (PyPI), the official 
+repository for third-party Python software, contains over 200,000[105] packages 
+with a wide range of functionality, including: 
+  Graphical user interfaces
+  Web frameworks
+  Multimedia
+  Databases
+  Networking
+  Test frameworks
+  Automation
+  Web scraping[106]
+  Documentation
+  System administration
+  Scientific computing
+  Text processing
+  Image processing
+  Machine learning
+  Data analytics
+
+Development environments[edit]
+
+See also: Comparison of integrated development environments § Python
+
+Most Python implementations (including CPython) include a read–eval–print loop 
+(REPL), permitting them to function as a command line interpreter for which the 
+user enters statements sequentially and receives results immediately. 
+
+Other shells, including IDLE and IPython, add further abilities such as 
+auto-completion, session state retention and syntax highlighting. 
+
+As well as standard desktop integrated development environments, there are Web 
+browser-based IDEs; SageMath (intended for developing science and math-related 
+Python programs); PythonAnywhere, a browser-based IDE and hosting environment; 
+and Canopy IDE, a commercial Python IDE emphasizing scientific computing.[107] 
+
+Implementations[edit]
+
+See also: List of Python software § Python implementations
+
+Reference implementation[edit]
+
+CPython is the reference implementation of Python. It is written in C, meeting 
+the C89 standard with several select C99 features.[108] It compiles Python 
+programs into an intermediate bytecode[109] which is then executed by its 
+virtual machine.[110] CPython is distributed with a large standard library 
+written in a mixture of C and native Python. It is available for many platforms, 
+including Windows and most modern Unix-like systems. Platform portability was 
+one of its earliest priorities.[111] 
+
+Other implementations[edit]
+
+PyPy is a fast, compliant interpreter of Python 2.7 and 3.5.[112] Its 
+just-in-time compiler brings a significant speed improvement over CPython but 
+several libraries written in C cannot be used with it.[113][114] 
+
+Stackless Python is a significant fork of CPython that implements microthreads; 
+it does not use the C memory stack, thus allowing massively concurrent programs. 
+PyPy also has a stackless version.[115] 
+
+MicroPython and CircuitPython are Python 3 variants optimized for 
+microcontrollers. This includes Lego Mindstorms EV3.[116] 
+
+RustPython is a Python 3 interpreter written in Rust.[117] 
+
+Unsupported implementations[edit]
+
+Other just-in-time Python compilers have been developed, but are now 
+unsupported: 
+  Google began a project named Unladen Swallow in 2009, with the aim of speeding 
+  up the Python interpreter five-fold by using the LLVM, and of improving its 
+  multithreading ability to scale to thousands of cores,[118] while ordinary 
+  implementations suffer from the global interpreter lock.
+  Psyco is a just-in-time specialising compiler that integrates with CPython and 
+  transforms bytecode to machine code at runtime. The emitted code is 
+  specialized for certain data types and is faster than standard Python code.
+
+In 2005, Nokia released a Python interpreter for the Series 60 mobile phones 
+named PyS60. It includes many of the modules from the CPython implementations 
+and some additional modules to integrate with the Symbian operating system. The 
+project has been kept up-to-date to run on all variants of the S60 platform, and 
+several third-party modules are available. The Nokia N900 also supports Python 
+with GTK widget libraries, enabling programs to be written and run on the target 
+device.[119] 
+
+Cross-compilers to other languages[edit]
+
+There are several compilers to high-level object languages, with either 
+unrestricted Python, a restricted subset of Python, or a language similar to 
+Python as the source language: 
+  Jython enables the use of the Java class library from a Python program.
+  IronPython follows a similar approach in order to run Python programs on the 
+  .NET Common Language Runtime.
+  The RPython language can be compiled to C, and is used to build the PyPy 
+  interpreter of Python.
+  Pyjs compiles Python to JavaScript.
+  Cython compiles Python to C and C++.
+  Numba uses LLVM to compile Python to machine code.
+  Pythran compiles Python to C++.
+  Somewhat dated Pyrex (latest release in 2010) and Shed Skin (latest release in 
+  2013) compile to C and C++ respectively.
+  Google's Grumpy compiles Python to Go.
+  MyHDL compiles Python to VHDL.
+  Nuitka compiles Python into C++.[120]
+
+Performance[edit]
+
+A performance comparison of various Python implementations on a non-numerical 
+(combinatorial) workload was presented at EuroSciPy '13.[121] 
+
+Development[edit]
+
+Python's development is conducted largely through the Python Enhancement 
+Proposal (PEP) process, the primary mechanism for proposing major new features, 
+collecting community input on issues and documenting Python design 
+decisions.[122] Python coding style is covered in PEP 8.[123] Outstanding PEPs 
+are reviewed and commented on by the Python community and the steering 
+council.[122] 
+
+Enhancement of the language corresponds with development of the CPython 
+reference implementation. The mailing list python-dev is the primary forum for 
+the language's development. Specific issues are discussed in the Roundup bug 
+tracker maintained at python.org.[124] Development originally took place on a 
+self-hosted source-code repository running Mercurial, until Python moved to 
+GitHub in January 2017.[125] 
+
+CPython's public releases come in three types, distinguished by which part of 
+the version number is incremented: 
+  Backward-incompatible versions, where code is expected to break and need to be 
+  manually ported. The first part of the version number is incremented. These 
+  releases happen infrequently—for example, version 3.0 was released 8 years 
+  after 2.0.
+  Major or "feature" releases, about every 18 months, are largely compatible but 
+  introduce new features. The second part of the version number is incremented. 
+  Each major version is supported by bugfixes for several years after its 
+  release.[126]
+  Bugfix releases, which introduce no new features, occur about every 3 months 
+  and are made when a sufficient number of bugs have been fixed upstream since 
+  the last release. Security vulnerabilities are also patched in these releases. 
+  The third and final part of the version number is incremented.[127]
+
+Python 3.9 alpha1 was announced in November 2019,[128] but the release date for 
+the final version depends on what new proposal for release dates are adopted 
+with three draft proposals under discussion, and a yearly cadence is one 
+option.[129][130][131][132] 
+
+Many alpha, beta, and release-candidates are also released as previews and for 
+testing before final releases. Although there is a rough schedule for each 
+release, they are often delayed if the code is not ready. Python's development 
+team monitors the state of the code by running the large unit test suite during 
+development, and using the BuildBot continuous integration system.[133] 
+
+The community of Python developers has also contributed over 206,000[134] 
+software modules (as of 29 November 2019[update]) to the Python Package Index 
+(PyPI), the official repository of third-party Python libraries. 
+
+The major academic conference on Python is PyCon. There are also special Python 
+mentoring programmes, such as Pyladies. 
+
+Naming[edit]
+
+Python's name is derived from the British comedy group Monty Python, whom Python 
+creator Guido van Rossum enjoyed while developing the language. Monty Python 
+references appear frequently in Python code and culture;[135] for example, the 
+metasyntactic variables often used in Python literature are spam and eggs 
+instead of the traditional foo and bar.[135][136] The official Python 
+documentation also contains various references to Monty Python 
+routines.[137][138] 
+
+The prefix Py- is used to show that something is related to Python. Examples of 
+the use of this prefix in names of Python applications or libraries include 
+Pygame, a binding of SDL to Python (commonly used to create games); PyQt and 
+PyGTK, which bind Qt and GTK to Python respectively; and PyPy, a Python 
+implementation originally written in Python. 
+
+API documentation generators[edit]
+
+Python API documentation generators include: 
+  Sphinx
+  Epydoc
+  HeaderDoc
+  pydoc
+
+Uses[edit]
+
+Main article: List of Python software
+
+Since 2003, Python has consistently ranked in the top ten most popular 
+programming languages in the TIOBE Programming Community Index where, as of 
+December 2018[update], it is the third most popular language (behind Java, and 
+C).[139] It was selected Programming Language of the Year in 2007, 2010, and 
+2018.[140] 
+
+An empirical study found that scripting languages, such as Python, are more 
+productive than conventional languages, such as C and Java, for programming 
+problems involving string manipulation and search in a dictionary, and 
+determined that memory consumption was often "better than Java and not much 
+worse than C or C++".[141] 
+
+Large organizations that use Python include Wikipedia, Google,[142] Yahoo!,[143] 
+CERN,[144] NASA,[145] Facebook,[146] Amazon, Instagram,[147] Spotify[148] and 
+some smaller entities like ILM[149] and ITA.[150] The social news networking 
+site Reddit is written entirely in Python.[151] 
+
+Python can serve as a scripting language for web applications, e.g., via 
+mod_wsgi for the Apache web server.[152] With Web Server Gateway Interface, a 
+standard API has evolved to facilitate these applications. Web frameworks like 
+Django, Pylons, Pyramid, TurboGears, web2py, Tornado, Flask, Bottle and Zope 
+support developers in the design and maintenance of complex applications. Pyjs 
+and IronPython can be used to develop the client-side of Ajax-based 
+applications. SQLAlchemy can be used as data mapper to a relational database. 
+Twisted is a framework to program communications between computers, and is used 
+(for example) by Dropbox. 
+
+Libraries such as NumPy, SciPy and Matplotlib allow the effective use of Python 
+in scientific computing,[153][154] with specialized libraries such as Biopython 
+and Astropy providing domain-specific functionality. SageMath is a mathematical 
+software with a notebook interface programmable in Python: its library covers 
+many aspects of mathematics, including algebra, combinatorics, numerical 
+mathematics, number theory, and calculus. 
+
+Python has been successfully embedded in many software products as a scripting 
+language, including in finite element method software such as Abaqus, 3D 
+parametric modeler like FreeCAD, 3D animation packages such as 3ds Max, Blender, 
+Cinema 4D, Lightwave, Houdini, Maya, modo, MotionBuilder, Softimage, the visual 
+effects compositor Nuke, 2D imaging programs like GIMP,[155] Inkscape, Scribus 
+and Paint Shop Pro,[156] and musical notation programs like scorewriter and 
+capella. GNU Debugger uses Python as a pretty printer to show complex structures 
+such as C++ containers. Esri promotes Python as the best choice for writing 
+scripts in ArcGIS.[157] It has also been used in several video games,[158][159] 
+and has been adopted as first of the three available programming languages in 
+Google App Engine, the other two being Java and Go.[160] 
+
+Python is commonly used in artificial intelligence projects with the help of 
+libraries like TensorFlow, Keras and Scikit-learn.[161][162][163][164] As a 
+scripting language with modular architecture, simple syntax and rich text 
+processing tools, Python is often used for natural language processing.[165] 
+
+Many operating systems include Python as a standard component. It ships with 
+most Linux distributions[166], AmigaOS 4, FreeBSD (as a package), NetBSD, 
+OpenBSD (as a package) and macOS and can be used from the command line 
+(terminal). Many Linux distributions use installers written in Python: Ubuntu 
+uses the Ubiquity installer, while Red Hat Linux and Fedora use the Anaconda 
+installer. Gentoo Linux uses Python in its package management system, Portage. 
+
+Python is used extensively in the information security industry, including in 
+exploit development.[167][168] 
+
+Most of the Sugar software for the One Laptop per Child XO, now developed at 
+Sugar Labs, is written in Python.[169] The Raspberry Pi single-board computer 
+project has adopted Python as its main user-programming language. 
+
+LibreOffice includes Python, and intends to replace Java with Python. Its Python 
+Scripting Provider is a core feature[170] since Version 4.0 from 7 February 
+2013. 
+
+Languages influenced by Python[edit]
+
+Python's design and philosophy have influenced many other programming languages: 
+  Boo uses indentation, a similar syntax, and a similar object model.[171]
+  Cobra uses indentation and a similar syntax, and its "Acknowledgements" 
+  document lists Python first among languages that influenced it.[172] However, 
+  Cobra directly supports design-by-contract, unit tests, and optional static 
+  typing.[173]
+  CoffeeScript, a programming language that cross-compiles to JavaScript, has 
+  Python-inspired syntax.
+  ECMAScript borrowed iterators and generators from Python.[174]
+  Go is designed for the "speed of working in a dynamic language like 
+  Python"[175] and shares the same syntax for slicing arrays.
+  Groovy was motivated by the desire to bring the Python design philosophy to 
+  Java.[176]
+  Julia was designed "with true macros [.. and to be] as usable for general 
+  programming as Python [and] should be as fast as C".[24] Calling to or from 
+  Julia is possible; to with PyCall.jl and a Python package pyjulia allows 
+  calling, in the other direction, from Python.
+  Kotlin is a functional programming language with an interactive shell similar 
+  to Python. However, Kotlin is strongly typed with access to standard Java 
+  libraries.[177]
+  Ruby's creator, Yukihiro Matsumoto, has said: "I wanted a scripting language 
+  that was more powerful than Perl, and more object-oriented than Python. That's 
+  why I decided to design my own language."[178]
+  Swift, a programming language developed by Apple, has some Python-inspired 
+  syntax.[179]
+  GDScript, dynamically typed programming language used to create video-games. 
+  It is extremely similar to Python with a few minor differences.
+
+Python's development practices have also been emulated by other languages. For 
+example, the practice of requiring a document describing the rationale for, and 
+issues surrounding, a change to the language (in Python, a PEP) is also used in 
+Tcl[180] and Erlang.[181] 
+
+See also[edit]
+.mw-parser-output .portal{border:solid #aaa 1px;padding:0}.mw-parser-output 
+.portal.tleft{margin:0.5em 1em 0.5em 0}.mw-parser-output 
+.portal.tright{margin:0.5em 0 0.5em 1em}.mw-parser-output 
+.portal>ul{display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold}.mw-parser-outputr
+.portal>ul>li{display:table-row}.mw-parser-output 
+.portal>ul>li>span:first-child{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-outputy
+.portal>ul>li>span:last-child{display:table-cell;padding:0.2em 0.2em 0.2em 
+0.3em;vertical-align:middle}
+ Computer programming portal
+  Free and open-source software portal
+  Python syntax and semantics
+  pip (package manager)
+  IPython
+
+References[edit]
+
+  ^ Jump up to: a b Guttag, John V. (12 August 2016). Introduction to 
+  Computation and Programming Using Python: With Application to Understanding 
+  Data. MIT Press. ISBN 978-0-262-52962-4..mw-parser-output 
+  cite.citation{font-style:inherit}.mw-parser-output .citation 
+  q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output 
+  .citation .cs1-lock-free 
+  a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png")no-repeat;background-position:rightr
+  .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output 
+  .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited 
+  a,.mw-parser-output .citation .cs1-lock-registration 
+  a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png")no-repeat;background-position:right0
+  .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output 
+  .citation .cs1-lock-subscription 
+  a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png")no-repeat;background-position:rightn
+  .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output 
+  .cs1-registration{color:#555}.mw-parser-output .cs1-subscription 
+  span,.mw-parser-output .cs1-registration span{border-bottom:1px 
+  dotted;cursor:help}.mw-parser-output .cs1-ws-icon 
+  a{background:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png")no-repeat;background-position:right-
+  .1em center}.mw-parser-output 
+  code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-outputi
+  .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output 
+  .cs1-visible-error{font-size:100%}.mw-parser-output 
+  .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output 
+  .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output 
+  .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output 
+  .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output 
+  .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em} 
+  ^ "Python 3.8.1". 
+  ^ "Python 3.9.0a3". 
+  ^ "PEP 483 -- The Theory of Type Hints". Python.org. 
+  ^ File extension .pyo was removed in Python 3.5. See PEP 0488 
+  ^ Holth, Moore (30 March 2014). "PEP 0441 -- Improving Python ZIP Application 
+  Support". Retrieved 12 November 2015. 
+  ^ "Starlark Language". Retrieved 25 May 2019. 
+  ^ Jump up to: a b "Why was Python created in the first place?". General Python 
+  FAQ. Python Software Foundation. Retrieved 22 March 2007. 
+  ^ "Ada 83 Reference Manual (raise statement)". 
+  ^ Kuchling, Andrew M. (22 December 2006). "Interview with Guido van Rossum 
+  (July 1998)". amk.ca. Archived from the original on 1 May 2007. Retrieved 12 
+  March 2012. 
+  ^ Jump up to: a b "itertools — Functions creating iterators for efficient 
+  looping — Python 3.7.1 documentation". docs.python.org. 
+  ^ van Rossum, Guido (1993). "An Introduction to Python for UNIX/C 
+  Programmers". Proceedings of the NLUUG Najaarsconferentie (Dutch UNIX Users 
+  Group). CiteSeerX 10.1.1.38.2023. even though the design of C is far from 
+  ideal, its influence on Python is considerable. 
+  ^ Jump up to: a b "Classes". The Python Tutorial. Python Software Foundation. 
+  Retrieved 20 February 2012. It is a mixture of the class mechanisms found in 
+  C++ and Modula-3 
+  ^ Lundh, Fredrik. "Call By Object". effbot.org. Retrieved 21 November 2017. 
+  replace "CLU" with "Python", "record" with "instance", and "procedure" with 
+  "function or method", and you get a pretty accurate description of Python's 
+  object model. 
+  ^ Simionato, Michele. "The Python 2.3 Method Resolution Order". Python 
+  Software Foundation. The C3 method itself has nothing to do with Python, since 
+  it was invented by people working on Dylan and it is described in a paper 
+  intended for lispers 
+  ^ Kuchling, A. M. "Functional Programming HOWTO". Python v2.7.2 documentation. 
+  Python Software Foundation. Retrieved 9 February 2012. 
+  ^ Schemenauer, Neil; Peters, Tim; Hetland, Magnus Lie (18 May 2001). "PEP 255 
+  – Simple Generators". Python Enhancement Proposals. Python Software 
+  Foundation. Retrieved 9 February 2012. 
+  ^ Smith, Kevin D.; Jewett, Jim J.; Montanaro, Skip; Baxter, Anthony (2 
+  September 2004). "PEP 318 – Decorators for Functions and Methods". Python 
+  Enhancement Proposals. Python Software Foundation. Retrieved 24 February 2012. 
+  ^ "More Control Flow Tools". Python 3 documentation. Python Software 
+  Foundation. Retrieved 24 July 2015. 
+  ^ "CoffeeScript borrows chained comparisons from Python". 
+  ^ "Genie Language - A brief guide". Retrieved 28 December 2015. 
+  ^ "Perl and Python influences in JavaScript". www.2ality.com. 24 February 
+  2013. Retrieved 15 May 2015. 
+  ^ Rauschmayer, Axel. "Chapter 3: The Nature of JavaScript; Influences". 
+  O'Reilly, Speaking JavaScript. Retrieved 15 May 2015. 
+  ^ Jump up to: a b "Why We Created Julia". Julia website. February 2012. 
+  Retrieved 5 June 2014. 
+  ^ Ring Team (4 December 2017). "Ring and other languages". ring-lang.net. 
+  ring-lang. 
+  ^ Bini, Ola (2007). Practical JRuby on Rails Web 2.0 Projects: bringing Ruby 
+  on Rails to the Java platform. Berkeley: APress. p. 3. ISBN 978-1-59059-881-8. 
+  ^ Lattner, Chris (3 June 2014). "Chris Lattner's Homepage". Chris Lattner. 
+  Retrieved 3 June 2014. The Swift language is the product of tireless effort 
+  from a team of language experts, documentation gurus, compiler optimization 
+  ninjas, and an incredibly important internal dogfooding group who provided 
+  feedback to help refine and battle-test ideas. Of course, it also greatly 
+  benefited from the experiences hard-won by many other languages in the field, 
+  drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far 
+  too many others to list. 
+  ^ Kuhlman, Dave. "A Python Book: Beginning Python, Advanced Python, and Python 
+  Exercises". Section 1.1. Archived from the original (PDF) on 23 June 2012. 
+  ^ "About Python". Python Software Foundation. Retrieved 24 April 2012., second 
+  section "Fans of Python use the phrase "batteries included" to describe the 
+  standard library, which covers everything from asynchronous processing to zip 
+  files." 
+  ^ "Sunsetting Python 2". Python.org. Retrieved 22 September 2019. 
+  ^ "PEP 373 -- Python 2.7 Release Schedule". Python.org. Retrieved 22 September 
+  2019. 
+  ^ "Python Developer's Guide — Python Developer's Guide". devguide.python.org. 
+  Retrieved 17 December 2019. 
+  ^ "History and License". Retrieved 5 December 2016. "All Python releases are 
+  Open Source" 
+  ^ Jump up to: a b Venners, Bill (13 January 2003). "The Making of Python". 
+  Artima Developer. Artima. Retrieved 22 March 2007. 
+  ^ van Rossum, Guido (29 August 2000). "SETL (was: Lukewarm about range 
+  literals)". Python-Dev (Mailing list). Retrieved 13 March 2011. 
+  ^ van Rossum, Guido (20 January 2009). "A Brief Timeline of Python". The 
+  History of Python. Retrieved 20 January 2009. 
+  ^ Fairchild, Carlie (12 July 2018). "Guido van Rossum Stepping Down from Role 
+  as Python's Benevolent Dictator For Life". Linux Journal. Retrieved 13 July 
+  2018. 
+  ^ "Guido van Rossum Stepping Down from Role as Python's Benevolent Dictator 
+  For Life | Linux Journal". www.linuxjournal.com. 
+  ^ "Python boss Guido van Rossum steps down after 30 years". The Inquirer. 
+  ^ "PEP 8100". python. Python Software Foundation. Retrieved 4 May 2019. 
+  ^ "PEP 8100". Python Software Foundation. Retrieved 4 May 2019. 
+  ^ Kuchling, A. M.; Zadka, Moshe (16 October 2000). "What's New in Python 2.0". 
+  Python Software Foundation. Retrieved 11 February 2012. 
+  ^ "Python 3.0 Release". Python Software Foundation. Retrieved 8 July 2009. 
+  ^ van Rossum, Guido (5 April 2006). "PEP 3000 – Python 3000". Python 
+  Enhancement Proposals. Python Software Foundation. Retrieved 27 June 2009. 
+  ^ "Automated Python 2 to 3 code translation — Python Documentation". Retrieved 
+  11 February 2018. 
+  ^ "PEP 373 -- Python 2.7 Release Schedule". python.org. Retrieved 9 January 
+  2017. 
+  ^ "PEP 466 -- Network Security Enhancements for Python 2.7.x". python.org. 
+  Retrieved 9 January 2017. 
+  ^ The Cain Gang Ltd. "Python Metaclasses: Who? Why? When?" (PDF). Archived 
+  from the original (PDF) on 30 May 2009. Retrieved 27 June 2009. 
+  ^ "3.3. Special method names". The Python Language Reference. Python Software 
+  Foundation. Retrieved 27 June 2009. 
+  ^ "PyDBC: method preconditions, method postconditions and class invariants for 
+  Python". Retrieved 24 September 2011. 
+  ^ "Contracts for Python". Retrieved 24 September 2011. 
+  ^ "PyDatalog". Retrieved 22 July 2012. 
+  ^ Jump up to: a b Hettinger, Raymond (30 January 2002). "PEP 289 – Generator 
+  Expressions". Python Enhancement Proposals. Python Software Foundation. 
+  Retrieved 19 February 2012. 
+  ^ "6.5 itertools – Functions creating iterators for efficient looping". 
+  Docs.python.org. Retrieved 22 November 2016. 
+  ^ Jump up to: a b Peters, Tim (19 August 2004). "PEP 20 – The Zen of Python". 
+  Python Enhancement Proposals. Python Software Foundation. Retrieved 24 
+  November 2008. 
+  ^ Martelli, Alex; Ravenscroft, Anna; Ascher, David (2005). Python Cookbook, 
+  2nd Edition. O'Reilly Media. p. 230. ISBN 978-0-596-00797-3. 
+  ^ "Python Culture". 
+  ^ "General Python FAQ". Python v2.7.3 documentation. Docs.python.org. 
+  Retrieved 3 December 2012. 
+  ^ "15 Ways Python Is a Powerful Force on the Web". 
+  ^ "pprint - Data pretty printer - Python Documentation". 
+  ^ Goodger, David. "Code Like a Pythonista: Idiomatic Python". 
+  ^ "How to think like a Pythonista". 
+  ^ "Is Python a good language for beginning programmers?". General Python FAQ. 
+  Python Software Foundation. Retrieved 21 March 2007. 
+  ^ "Myths about indentation in Python". Secnetix.de. Retrieved 19 April 2011. 
+  ^ "Python 2.5 Release". Python.org. 
+  ^ "Highlights: Python 2.5". Python.org. 
+  ^ Sweigart, Al (2010). "Appendix A: Differences Between Python 2 and 3". 
+  Invent Your Own Computer Games with Python (2 ed.). ISBN 978-0-9821060-1-3. 
+  Retrieved 20 February 2014. 
+  ^ van Rossum, Guido (22 April 2009). "Tail Recursion Elimination". 
+  Neopythonic.blogspot.be. Retrieved 3 December 2012. 
+  ^ van Rossum, Guido (9 February 2006). "Language Design Is Not Just Solving 
+  Puzzles". Artima forums. Artima. Retrieved 21 March 2007. 
+  ^ van Rossum, Guido; Eby, Phillip J. (10 May 2005). "PEP 342 – Coroutines via 
+  Enhanced Generators". Python Enhancement Proposals. Python Software 
+  Foundation. Retrieved 19 February 2012. 
+  ^ "PEP 380". Python.org. Retrieved 3 December 2012. 
+  ^ "division". python.org. 
+  ^ "PEP 0465 -- A dedicated infix operator for matrix multiplication". 
+  python.org. Retrieved 1 January 2016. 
+  ^ "Python 3.5.1 Release and Changelog". python.org. Retrieved 1 January 2016. 
+  ^ "What's New In Python 3.8". Retrieved 14 October 2019. 
+  ^ "Chapter 15. Expressions - 15.21.1. Numerical Equality Operators == and !=". 
+  Oracle Corporation. Retrieved 28 August 2016. 
+  ^ "Chapter 15. Expressions - 15.21.3. Reference Equality Operators == and !=". 
+  Oracle Corporation. Retrieved 28 August 2016. 
+  ^ van Rossum, Guido; Hettinger, Raymond (7 February 2003). "PEP 308 – 
+  Conditional Expressions". Python Enhancement Proposals. Python Software 
+  Foundation. Retrieved 13 July 2011. 
+  ^ "4. Built-in Types — Python 3.6.3rc1 documentation". python.org. Retrieved 1 
+  October 2017. 
+  ^ "5.3. Tuples and Sequences — Python 3.7.1rc2 documentation". python.org. 
+  Retrieved 17 October 2018. 
+  ^ Jump up to: a b "PEP 498 -- Literal String Interpolation". python.org. 
+  Retrieved 8 March 2017. 
+  ^ "Why must 'self' be used explicitly in method definitions and calls?". 
+  Design and History FAQ. Python Software Foundation. Retrieved 19 February 
+  2012. 
+  ^ "The Python Language Reference, section 3.3. New-style and classic classes, 
+  for release 2.7.1". Retrieved 12 January 2011. 
+  ^ "Type hinting for Python". LWN.net. 24 December 2014. Retrieved 5 May 2015. 
+  ^ "mypy - Optional Static Typing for Python". Retrieved 28 January 2017. 
+  ^ Zadka, Moshe; van Rossum, Guido (11 March 2001). "PEP 237 – Unifying Long 
+  Integers and Integers". Python Enhancement Proposals. Python Software 
+  Foundation. Retrieved 24 September 2011. 
+  ^ "Built-in Types". Retrieved 3 October 2019. 
+  ^ "PEP 465 -- A dedicated infix operator for matrix multiplication". 
+  python.org. 
+  ^ "The tilde operator in Python - Stackoverflow". stackoverflow.com. 
+  ^ "BitwiseOperators - Python Wiki". wiki.python.org. 
+  ^ Jump up to: a b Zadka, Moshe; van Rossum, Guido (11 March 2001). "PEP 238 – 
+  Changing the Division Operator". Python Enhancement Proposals. Python Software 
+  Foundation. Retrieved 23 October 2013. 
+  ^ "Why Python's Integer Division Floors". Retrieved 25 August 2010. 
+  ^ "round", The Python standard library, release 2.7, §2: Built-in functions, 
+  retrieved 14 August 2011 
+  ^ "round", The Python standard library, release 3.2, §2: Built-in functions, 
+  retrieved 14 August 2011 
+  ^ Beazley, David M. (2009). Python Essential Reference (4th ed.). p. 66. 
+  ^ Kernighan, Brian W.; Ritchie, Dennis M. (1988). The C Programming Language 
+  (2nd ed.). p. 206. 
+  ^ "Built-in Type". docs.python.org. 
+  ^ Batista, Facundo. "PEP 0327 -- Decimal Data Type". Python.org. Retrieved 26 
+  September 2015. 
+  ^ "What's New in Python 2.6 — Python v2.6.9 documentation". docs.python.org. 
+  Retrieved 26 September 2015. 
+  ^ "10 Reasons Python Rocks for Research (And a Few Reasons it Doesn't) — Hoyt 
+  Koepke". www.stat.washington.edu. Retrieved 3 February 2019. 
+  ^ Shell, Scott (17 June 2014). "An introduction to Python for scientific 
+  computing" (PDF). Retrieved 3 February 2019. 
+  ^ Piotrowski, Przemyslaw (July 2006). "Build a Rapid Web Development 
+  Environment for Python Server Pages and Oracle". Oracle Technology Network. 
+  Oracle. Retrieved 12 March 2012. 
+  ^ Batista, Facundo (17 October 2003). "PEP 327 – Decimal Data Type". Python 
+  Enhancement Proposals. Python Software Foundation. Retrieved 24 November 2008. 
+  ^ Eby, Phillip J. (7 December 2003). "PEP 333 – Python Web Server Gateway 
+  Interface v1.0". Python Enhancement Proposals. Python Software Foundation. 
+  Retrieved 19 February 2012. 
+  ^ Debill, Erik. "Module Counts". ModuleCounts. Retrieved 5 November 2019. 
+  ^ "20+ Python Web Scraping Examples (Beautiful Soup & Selenium) - Like Geeks". 
+  likegeeks.com. 5 December 2017. Retrieved 12 March 2018. 
+  ^ Enthought, Canopy. "Canopy". www.enthought.com. Retrieved 20 August 2016. 
+  ^ van Rossum, Guido (5 June 2001). "PEP 7 – Style Guide for C Code". Python 
+  Enhancement Proposals. Python Software Foundation. Retrieved 24 November 2008. 
+  ^ "CPython byte code". Docs.python.org. Retrieved 16 February 2016. 
+  ^ "Python 2.5 internals" (PDF). Retrieved 19 April 2011. 
+  ^ "An Interview with Guido van Rossum". Oreilly.com. Retrieved 24 November 
+  2008. 
+  ^ "PyPy compatibility". Pypy.org. Retrieved 3 December 2012. 
+  ^ "speed comparison between CPython and Pypy". Speed.pypy.org. Retrieved 3 
+  December 2012. 
+  ^ Shaw, Anthony (30 March 2018). "Which is the fastest version of Python?". 
+  Hacker Noon. Retrieved 20 December 2019. 
+  ^ "Application-level Stackless features — PyPy 2.0.2 documentation". 
+  Doc.pypy.org. Retrieved 17 July 2013. 
+  ^ "Python-for-EV3". LEGO Education. Retrieved 17 April 2019. 
+  ^ GitHub - RustPython/RustPython: A Python Interpreter written in Rust., 
+  RustPython, 13 September 2019, retrieved 13 September 2019 
+  ^ "Plans for optimizing Python". Google Project Hosting. 15 December 2009. 
+  Retrieved 24 September 2011. 
+  ^ "Python on the Nokia N900". Stochastic Geometry. 29 April 2010. 
+  ^ "Nuitka Home | Nuitka Home". nuitka.net. Retrieved 18 August 2017. 
+  ^ Murri, Riccardo (2013). Performance of Python runtimes on a non-numeric 
+  scientific code. European Conference on Python in Science (EuroSciPy). 
+  arXiv:1404.6388. Bibcode:2014arXiv1404.6388M. 
+  ^ Jump up to: a b Warsaw, Barry; Hylton, Jeremy; Goodger, David (13 June 
+  2000). "PEP 1 – PEP Purpose and Guidelines". Python Enhancement Proposals. 
+  Python Software Foundation. Retrieved 19 April 2011. 
+  ^ "PEP 8 -- Style Guide for Python Code". Python.org. 
+  ^ Cannon, Brett. "Guido, Some Guys, and a Mailing List: How Python is 
+  Developed". python.org. Python Software Foundation. Archived from the original 
+  on 1 June 2009. Retrieved 27 June 2009. 
+  ^ "Python Developer's Guide". 
+  ^ Norwitz, Neal (8 April 2002). "[Python-Dev] Release Schedules (was Stability 
+  & change)". Retrieved 27 June 2009. 
+  ^ Aahz; Baxter, Anthony (15 March 2001). "PEP 6 – Bug Fix Releases". Python 
+  Enhancement Proposals. Python Software Foundation. Retrieved 27 June 2009. 
+  ^ "What's New In Python 3.9". Python. Retrieved 28 November 2019. 
+  ^ "PEP 605 -- A rolling feature release stream for CPython". Python.org. 
+  Retrieved 6 November 2019. 
+  ^ "PEP 602 -- Annual Release Cycle for Python". Python.org. Retrieved 6 
+  November 2019. 
+  ^ "PEP 596 -- Python 3.9 Release Schedule". Python.org. Retrieved 6 November 
+  2019. 
+  ^ "Changing the Python release cadence [LWN.net]". lwn.net. Retrieved 6 
+  November 2019. 
+  ^ "Python Buildbot". Python Developer’s Guide. Python Software Foundation. 
+  Retrieved 24 September 2011. 
+  ^ DeBill, Erik. "Module Counts". www.modulecounts.com. Retrieved 29 November 
+  2019. 
+  ^ Jump up to: a b "Whetting Your Appetite". The Python Tutorial. Python 
+  Software Foundation. Retrieved 20 February 2012. 
+  ^ "In Python, should I use else after a return in an if block?". Stack 
+  Overflow. Stack Exchange. 17 February 2011. Retrieved 6 May 2011. 
+  ^ Lutz, Mark (2009). Learning Python: Powerful Object-Oriented Programming. 
+  O'Reilly Media, Inc. p. 17. ISBN 9781449379322. 
+  ^ Fehily, Chris (2002). Python. Peachpit Press. p. xv. ISBN 9780201748840. 
+  ^ "TIOBE Index". TIOBE - The Software Quality Company. Retrieved 7 March 2017. 
+  ^ TIOBE Software Index (2015). "TIOBE Programming Community Index Python". 
+  Retrieved 10 September 2015. 
+  ^ Prechelt, Lutz (14 March 2000). "An empirical comparison of C, C++, Java, 
+  Perl, Python, Rexx, and Tcl" (PDF). Retrieved 30 August 2013. 
+  ^ "Quotes about Python". Python Software Foundation. Retrieved 8 January 2012. 
+  ^ "Organizations Using Python". Python Software Foundation. Retrieved 15 
+  January 2009. 
+  ^ "Python : the holy grail of programming". CERN Bulletin. CERN Publications 
+  (31/2006). 31 July 2006. Retrieved 11 February 2012. 
+  ^ Shafer, Daniel G. (17 January 2003). "Python Streamlines Space Shuttle 
+  Mission Design". Python Software Foundation. Retrieved 24 November 2008. 
+  ^ "Tornado: Facebook's Real-Time Web Framework for Python - Facebook for 
+  Developers". Facebook for Developers. Retrieved 19 June 2018. 
+  ^ "What Powers Instagram: Hundreds of Instances, Dozens of Technologies". 
+  Instagram Engineering. Retrieved 27 May 2019. 
+  ^ "How we use Python at Spotify". Spotify Labs. 20 March 2013. Retrieved 25 
+  July 2018. 
+  ^ Fortenberry, Tim (17 January 2003). "Industrial Light & Magic Runs on 
+  Python". Python Software Foundation. Retrieved 11 February 2012. 
+  ^ Taft, Darryl K. (5 March 2007). "Python Slithers into Systems". eWeek.com. 
+  Ziff Davis Holdings. Retrieved 24 September 2011. 
+  ^ GitHub - reddit-archive/reddit: historical code from reddit.com., The Reddit 
+  Archives, 19 March 2019, retrieved 20 March 2019 
+  ^ "Usage statistics and market share of Python for websites". 2012. Retrieved 
+  18 December 2012. 
+  ^ Oliphant, Travis (2007). "Python for Scientific Computing". Computing in 
+  Science and Engineering. 9 (3): 10–20. Bibcode:2007CSE.....9c..10O. CiteSeerX 
+  10.1.1.474.6460. doi:10.1109/MCSE.2007.58. 
+  ^ Millman, K. Jarrod; Aivazis, Michael (2011). "Python for Scientists and 
+  Engineers". Computing in Science and Engineering. 13 (2): 9–12. 
+  Bibcode:2011CSE....13b...9M. doi:10.1109/MCSE.2011.36. 
+  ^ "Installers for GIMP for Windows - Frequently Asked Questions". 26 July 
+  2013. Archived from the original on 17 July 2013. Retrieved 26 July 2013. 
+  ^ "jasc psp9components". Archived from the original on 19 March 2008. 
+  ^ "About getting started with writing geoprocessing scripts". ArcGIS Desktop 
+  Help 9.2. Environmental Systems Research Institute. 17 November 2006. 
+  Retrieved 11 February 2012. 
+  ^ CCP porkbelly (24 August 2010). "Stackless Python 2.7". EVE Community Dev 
+  Blogs. CCP Games. As you may know, EVE has at its core the programming 
+  language known as Stackless Python. 
+  ^ Caudill, Barry (20 September 2005). "Modding Sid Meier's Civilization IV". 
+  Sid Meier's Civilization IV Developer Blog. Firaxis Games. Archived from the 
+  original on 2 December 2010. we created three levels of tools ... The next 
+  level offers Python and XML support, letting modders with more experience 
+  manipulate the game world and everything in it. 
+  ^ "Python Language Guide (v1.0)". Google Documents List Data API v1.0. 
+  Archived from the original on 15 July 2010. 
+  ^ Dean, Jeff; Monga, Rajat; et al. (9 November 2015). "TensorFlow: Large-scale 
+  machine learning on heterogeneous systems" (PDF). TensorFlow.org. Google 
+  Research. Retrieved 10 November 2015. 
+  ^ Piatetsky, Gregory. "Python eats away at R: Top Software for Analytics, Data 
+  Science, Machine Learning in 2018: Trends and Analysis". KDnuggets. KDnuggets. 
+  Retrieved 30 May 2018. 
+  ^ "Who is using scikit-learn? — scikit-learn 0.20.1 documentation". 
+  scikit-learn.org. 
+  ^ Jouppi, Norm. "Google supercharges machine learning tasks with TPU custom 
+  chip". Google Cloud Platform Blog. Retrieved 19 May 2016. 
+  ^ "Natural Language Toolkit". 
+  ^ "Python Setup and Usage". Python Software Foundation. Retrieved 10 January 
+  2020. 
+  ^ "Immunity: Knowing You're Secure". Archived from the original on 16 February 
+  2009. 
+  ^ "Corelabs site". 
+  ^ "What is Sugar?". Sugar Labs. Retrieved 11 February 2012. 
+  ^ "4.0 New Features and Fixes". LibreOffice.org. The Document Foundation. 
+  2013. Retrieved 25 February 2013. 
+  ^ "Gotchas for Python Users". boo.codehaus.org. Codehaus Foundation. Archived 
+  from the original on 11 December 2008. Retrieved 24 November 2008. 
+  ^ Esterbrook, Charles. "Acknowledgements". cobra-language.com. Cobra Language. 
+  Retrieved 7 April 2010. 
+  ^ Esterbrook, Charles. "Comparison to Python". cobra-language.com. Cobra 
+  Language. Retrieved 7 April 2010. 
+  ^ "Proposals: iterators and generators [ES4 Wiki]". wiki.ecmascript.org. 
+  Archived from the original on 20 October 2007. Retrieved 24 November 2008. 
+  ^ Kincaid, Jason (10 November 2009). "Google's Go: A New Programming Language 
+  That's Python Meets C++". TechCrunch. Retrieved 29 January 2010. 
+  ^ Strachan, James (29 August 2003). "Groovy – the birth of a new dynamic 
+  language for the Java platform". 
+  ^ "Working with the Command Line Compiler - Kotlin Programming Language". 
+  Kotlin. Retrieved 12 March 2018. 
+  ^ "An Interview with the Creator of Ruby". Linuxdevcenter.com. Retrieved 3 
+  December 2012. 
+  ^ Lattner, Chris (3 June 2014). "Chris Lattner's Homepage". Chris Lattner. 
+  Retrieved 3 June 2014. I started work on the Swift Programming Language in 
+  July of 2010. I implemented much of the basic language structure, with only a 
+  few people knowing of its existence. A few other (amazing) people started 
+  contributing in earnest late in 2011, and it became a major focus for the 
+  Apple Developer Tools group in July 2013 [...] drawing ideas from Objective-C, 
+  Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. 
+  ^ Kupries, Andreas; Fellows, Donal K. (14 September 2000). "TIP #3: TIP 
+  Format". tcl.tk. Tcl Developer Xchange. Retrieved 24 November 2008. 
+  ^ Gustafsson, Per; Niskanen, Raimo (29 January 2007). "EEP 1: EEP Purpose and 
+  Guidelines". erlang.org. Retrieved 19 April 2011. 
+
+Sources[edit]
+  "Python for Artificial Intelligence". Wiki.python.org. 19 July 2012. Archived 
+  from the original on 1 November 2012. Retrieved 3 December 2012.
+  Paine, Jocelyn, ed. (August 2005). "AI in Python". AI Expert Newsletter. 
+  Amzi!. Retrieved 11 February 2012.
+  "PyAIML 0.8.5 : Python Package Index". Pypi.python.org. Retrieved 17 July 
+2013.
+  Russell, Stuart J. & Norvig, Peter (2009). Artificial Intelligence: A Modern 
+  Approach (3rd ed.). Upper Saddle River, NJ: Prentice Hall. ISBN 
+  978-0-13-604259-4.
+
+Further reading[edit]
+  Downey, Allen B. (May 2012). Think Python: How to Think Like a Computer 
+  Scientist (Version 1.6.6 ed.). ISBN 978-0-521-72596-5.
+  Hamilton, Naomi (5 August 2008). "The A-Z of Programming Languages: Python". 
+  Computerworld. Archived from the original on 29 December 2008. Retrieved 31 
+  March 2010.
+  Lutz, Mark (2013). Learning Python (5th ed.). O'Reilly Media. ISBN 
+  978-0-596-15806-4.
+  Pilgrim, Mark (2004). Dive Into Python. Apress. ISBN 978-1-59059-356-1.
+  Pilgrim, Mark (2009). Dive Into Python 3. Apress. ISBN 978-1-4302-2415-0.
+  Summerfield, Mark (2009). Programming in Python 3 (2nd ed.). Addison-Wesley 
+  Professional. ISBN 978-0-321-68056-3.
+
+External links[edit]
+
+
+
+Python (programming language)
+at Wikipedia's sister projectsMedia from Wikimedia Commons 
+  Quotations from Wikiquote 
+  Textbooks from Wikibooks 
+  Resources from Wikiversity 
+  Official website 
+  Python (programming language) at Curlie
+
+
+
+    show
+      v
+      t
+      e
+
+    Programming languages
+
+
+      Comparison
+       Timeline
+       History
+
+
+      APL
+       Assembly
+       BASIC
+       C
+       C++
+       C#
+       COBOL
+       Elixir
+       Fortran
+       Go
+       Groovy
+       Haskell
+       Java
+       JavaScript (JS)
+       Julia
+       Kotlin
+       Lisp
+       Lua
+       MATLAB
+       Objective-C
+       OCaml
+       Pascal
+       Perl
+       PHP
+       Python
+       R
+       Ruby
+       Rust
+       Scala
+       Shell
+       Smalltalk
+       Swift
+       TypeScript
+       Visual Basic .NET (VB.NET)
+       more...
+
+
+       Category
+        Lists Alphabetical
+         Categorical
+         Generational
+         Non-English-based
+
+
+
+
+
+    show
+      v
+      t
+      e
+
+    Python
+
+
+  Implementations
+
+      CircuitPython
+       CLPython
+       CPython
+       Cython
+       MicroPython
+       Numba
+       IronPython
+       Jython
+       Psyco
+       PyPy
+       Python for S60
+       Shed Skin
+       Stackless Python
+       Unladen Swallow
+       more...
+
+
+
+
+  IDE
+
+      Boa
+       Eric Python IDE
+       IDLE
+       PyCharm
+       PyDev
+       SPE
+       Ninja-IDE
+       more...
+
+
+  Topics
+
+      WSGI
+
+
+      software (list)
+       Python Software Foundation
+       PyCon
+
+
+
+
+    show
+      v
+      t
+      e
+
+    Python web frameworks
+
+
+      BlueBream
+       Bottle
+       CherryPy
+       Django
+       Flask
+       Grok
+       Nagare
+       Nevow
+       Pyjs
+       Pylons
+       Pyramid
+       Quixote
+       Spyce
+       TACTIC
+       Tornado
+       TurboGears
+       TwistedWeb
+       Webware
+       web2py
+       Zope 2
+       more...
+
+
+
+
+    show
+      v
+      t
+      e
+
+    Free and open-source software
+
+
+  General
+
+      Alternative terms for free software
+       Comparison of open-source and closed-source software
+       Comparison of source-code-hosting facilities
+       Free software
+       Free software project directories
+       Gratis versus libre
+       Long-term support
+       Open-source software
+       Open-source software development
+       Outline
+
+
+  Software
+  packages
+
+      Audio
+       Bioinformatics
+       Codecs
+       Collaboration
+       Configuration management
+       Device drivers Graphics
+         Wireless
+
+       Geophysics
+       Health
+       Mathematics
+       Operating systems
+       Programming languages
+       Routing
+       Statistics
+       Television
+       Video games
+       Web applications Content management systems
+         E-commerce
+
+       Word processors
+       Android apps
+       iOS apps
+       Commercial
+       Trademarked
+       Formerly proprietary
+       Formerly open-source
+
+
+  Community
+
+      Free software movement
+       History
+       Open-source-software movement
+       Organizations
+       Events
+
+
+  Licenses
+
+      AFL
+       Apache
+       APSL
+       Artistic
+       Beerware
+       Boost
+       BSD
+       CC0
+       CDDL
+       EPL
+       Free Software Foundation GNU GPL
+         GNU LGPL
+
+       ISC
+       MIT
+       MPL
+       Ms-PL/RL
+       Python
+       Python Software Foundation License
+       Sleepycat
+       Unlicense
+       WTFPL
+       zlib
+
+
+        Types and
+        standards
+
+            Comparison of free and open-source software licenses
+             Contributor License Agreement
+             Copyleft
+             Debian Free Software Guidelines
+             Definition of Free Cultural Works
+             Free license
+             The Free Software Definition
+             The Open Source Definition
+             Open-source license
+             Permissive software license
+             Public domain
+             Viral license
+
+
+
+
+
+  Challenges
+
+      Digital rights management
+       Firmware security
+       Hardware restrictions
+       License proliferation
+       Mozilla software rebranding
+       Proprietary device drivers
+       Proprietary firmware
+       Proprietary software
+       SCO/Linux controversies
+       Secure boot
+       Software patents
+       Software security
+       Trusted Computing
+
+
+  Related topics
+
+      Forking
+       GNU Manifesto
+       Microsoft Open Specification Promise
+       Open-core model
+       Open-source hardware
+       Shared Source Initiative
+       Source-available software
+       The Cathedral and the Bazaar
+       Revolution OS
+
+
+       Free and open-source software portal
+        Category
+        Book
+
+
+
+
+    Authority control 
+
+        BNF: cb13560465c (data)
+         GND: 4434275-5
+         LCCN: sh96008834
+         SUDOC: 051626225
+
+
+
+   <img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" 
+alt="" title="" width="1" height="1" style="border: none; position: absolute;" 
+/>
+Retrieved from 
+"https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=939861405"
+
+
+Categories: Programming languages
+  Class-based programming languages
+  Computational notebook
+  Computer science in the Netherlands
+  Cross-platform free software
+  Dutch inventions
+  Dynamically typed programming languages
+  Educational programming languages
+  High-level programming languages
+  Information technology in the Netherlands
+  Multi-paradigm programming languages
+  Object-oriented programming languages
+  Programming languages created in 1991
+  Python (programming language)
+  Scripting languages
+  Text-oriented programming languages
+  Cross-platform software
+
+Hidden categories: Articles with short description
+  Use dmy dates from August 2015
+  All articles with unsourced statements
+  Articles with unsourced statements from December 2019
+  Articles containing potentially dated statements from November 2019
+  All articles containing potentially dated statements
+  Articles containing potentially dated statements from December 2018
+  Articles with Curlie links
+  Wikipedia articles with BNF identifiers
+  Wikipedia articles with GND identifiers
+  Wikipedia articles with LCCN identifiers
+  Wikipedia articles with SUDOC identifiers
+  Good articles
+  Articles with example Python code
+
+
+
+
+
+Navigation menu
+
+
+
+Personal tools
+  Not logged in
+  Talk
+  Contributions
+  Create account
+  Log in
+
+
+
+Namespaces
+
+  Article
+
+
+  Talk
+
+
+
+Variants 
+
+
+
+Views
+
+  Read
+
+
+  Edit
+
+
+  View history
+
+
+
+More 
+
+
+Search 
+
+
+    
+
+
+
+
+
+Navigation 
+
+  Main page
+  Contents
+  Featured content
+  Current events
+  Random article
+  Donate to Wikipedia
+  Wikipedia store
+
+
+Interaction 
+
+  Help
+  About Wikipedia
+  Community portal
+  Recent changes
+  Contact page
+
+
+Tools 
+
+  What links here
+  Related changes
+  Upload file
+  Special pages
+  Permanent link
+  Page information
+  Wikidata item
+  Cite this page
+
+
+In other projects 
+
+  Wikimedia Commons
+  Wikibooks
+  Wikiquote
+  Wikiversity
+
+
+Print/export 
+
+  Create a book
+  Download as PDF
+  Printable version
+
+ 
+Languages 
+
+  Afrikaans
+  Alemannisch
+  العربية
+  Aragonés
+  অসমীয়া
+  Asturianu
+  Azərbaycanca
+  تۆرکجه
+  বাংলা
+  Bân-lâm-gú
+  Беларуская
+  Български
+  Bosanski
+  Català
+  Cebuano
+  Čeština
+  Cymraeg
+  Dansk
+  Deutsch
+  Eesti
+  Ελληνικά
+  Español
+  Esperanto
+  Euskara
+  فارسی
+  Français
+  Galego
+  ગુજરાતી
+  한국어
+  Հայերեն
+  हिन्दी
+  Hrvatski
+  Bahasa Indonesia
+  Interlingua
+  Íslenska
+  Italiano
+  עברית
+  ქართული
+  Қазақша
+  Kiswahili
+  Кыргызча
+  Latina
+  Latviešu
+  Lietuvių
+  La .lojban.
+  Lumbaart
+  Magyar
+  Македонски
+  മലയാളം
+  मराठी
+  Bahasa Melayu
+  Монгол
+  မြန်မာဘာသာ
+  Na Vosa Vakaviti
+  Nederlands
+  नेपाली
+  日本語
+  Norsk bokmål
+  Norsk nynorsk
+  ଓଡ଼ିଆ
+  Oʻzbekcha/ўзбекча
+  ਪੰਜਾਬੀ
+  پنجابی
+  ភាសាខ្មែរ
+  Plattdüütsch
+  Polski
+  Português
+  Română
+  Русский
+  Scots
+  Shqip
+  සිංහල
+  Simple English
+  Slovenčina
+  Slovenščina
+  کوردی
+  Српски / srpski
+  Srpskohrvatski / српскохрватски
+  Suomi
+  Svenska
+  Tagalog
+  தமிழ்
+  Татарча/tatarça
+  ၽႃႇသႃႇတႆး 
+  తెలుగు
+  ไทย
+  Тоҷикӣ
+  Türkçe
+  ᨅᨔ ᨕᨘᨁᨗ
+  Українська
+  اردو
+  Tiếng Việt
+  Winaray
+  吴语
+  粵語
+  中文
+  87 more
+Edit links
+
+  This page was last edited on 9 February 2020, at 04:40 (UTC).
+  Text is available under the Creative Commons Attribution-ShareAlike License;
+   additional terms may apply. By using this site, you agree to the Terms of Use 
+  and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia 
+  Foundation, Inc., a non-profit organization.
+  Privacy policy
+  About Wikipedia
+  Disclaimers
+  Contact Wikipedia
+  Developers
+  Statistics
+  Cookie statement
+  Mobile view
+  Enable previews
+  	
+  	
+
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.972","walltime":"2.264","ppvisitednodes":{"value":11042,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":359438,"limit":2097152},"templateargumentsize":{"value":13366,"limit":2097152},"expansiondepth":{"value":27,"limit":40},"expensivefunctioncount":{"value":16,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":580132,"limit":5000000},"entityaccesscount":{"value":5,"limit":400},"timingprofile":["100.00%t
+1940.731 1 -total"," 59.80% 1160.491 1 Template:Reflist"," 36.92% 716.548 161 
+Template:Cite_web"," 9.09% 176.316 2 Template:Infobox"," 7.37% 143.070 14 
+Template:Cite_book"," 7.28% 141.338 1 Template:Infobox_programming_language"," 
+4.20% 81.458 1 Template:Official_website"," 3.50% 67.872 5 
+Template:Cite_journal"," 2.43% 47.249 1 Template:Infobox_software/simple"," 
+2.37% 46.006 1 
+Template:Citation_needed"]},"scribunto":{"limitreport-timeusage":{"value":"1.090","limit":"10.000"},"limitreport-memusage":{"value":8277909,"limit":52428800},"limitreport-logs":"table#1"
+{\n}\n","limitreport-profile":[["?","140","12.1"],["recursiveClone 
+\u003CmwInit.lua:41\u003E","120","10.3"],["Scribunto_LuaSandboxCallback::callParserFunction","120","10.3"],["dataWrappert
+\u003Cmw.lua:661\u003E","100","8.6"],["Scribunto_LuaSandboxCallback::getEntity","100","8.6"],["\u003Cmw.lua:683\u003E","80","6.9"],["Scribunto_LuaSandboxCallback::gsub","80","6.9"],["Scribunto_LuaSandboxCallback::match","60","5.2"],["Scribunto_LuaSandboxCallback::getExpensiveData","40","3.4"],["(for.
+generator) 
+\u003Cmw.lua:673\u003E","40","3.4"],["[others]","280","24.1"]]},"cachereport":{"origin":"mw1341","timestamp":"20200209044022","ttl":86400,"transientcontent":true}}});}); 
+{"@context":"https:\/\/schema.org","@type":"Article","name":"Python (programming 
+language)","url":"https:\/\/en.wikipedia.org\/wiki\/Python_(programming_language)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q28865","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q28865","author":{"@type":"Organization","name":"Contributors.
+to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia 
+Foundation, 
+Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-10-29T18:24:39Z","dateModified":"2020-02-09T04:40:14Z","headline":"Anb
+interpreted, high-level, general-purpose programming language. Created by Guido 
+van Rossum and first released in 1991, Python's design philosophy emphasizes 
+code readability with its notable use of significant whitespace."} 
+(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":173,"wgHostname":"mw1333"});}); 

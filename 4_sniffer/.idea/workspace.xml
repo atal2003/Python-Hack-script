@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e72a278b-c7d3-42ee-a824-35cdf922112f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xyh9TNyHu4n2EB5mAKl05tZrjp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="sniffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="snippfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sniffer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sniffer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e72a278b-c7d3-42ee-a824-35cdf922112f" name="Default Changelist" comment="" />
+      <created>1582024089315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582024089315</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="60" width="486" height="516" key="FileChooserDialogImpl" timestamp="1582024145725">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state x="328" y="60" width="486" height="516" key="FileChooserDialogImpl/50.27.974.741@50.27.974.741" timestamp="1582024145725" />
+    <state width="464" height="343" key="GridCell.Tab.0.bottom" timestamp="1582041632976">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state width="464" height="343" key="GridCell.Tab.0.bottom/50.27.974.741@50.27.974.741" timestamp="1582041632976" />
+    <state width="464" height="343" key="GridCell.Tab.0.center" timestamp="1582041632974">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state width="464" height="343" key="GridCell.Tab.0.center/50.27.974.741@50.27.974.741" timestamp="1582041632974" />
+    <state width="464" height="343" key="GridCell.Tab.0.left" timestamp="1582041632973">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state width="464" height="343" key="GridCell.Tab.0.left/50.27.974.741@50.27.974.741" timestamp="1582041632973" />
+    <state width="464" height="343" key="GridCell.Tab.0.right" timestamp="1582041632975">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state width="464" height="343" key="GridCell.Tab.0.right/50.27.974.741@50.27.974.741" timestamp="1582041632975" />
+    <state x="50" y="27" width="974" height="732" key="SettingsEditor" timestamp="1582024230860">
+      <screen x="50" y="27" width="974" height="741" />
+    </state>
+    <state x="50" y="27" width="974" height="732" key="SettingsEditor/50.27.974.741@50.27.974.741" timestamp="1582024230860" />
+  </component>
+</project>
